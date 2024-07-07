@@ -1,0 +1,39 @@
+Freezing layer 'model.22.dfl.conv.weight'
+WARNING ⚠️ imgsz=[920] must be multiple of max stride 32, updating to [928]
+[34m[1malbumentations: [39m[22mBlur(p=0.01, blur_limit=(3, 7)), MedianBlur(p=0.01, blur_limit=(3, 7)), ToGray(p=0.01), CLAHE(p=0.01, clip_limit=(1, 4.0), tile_grid_size=(8, 8))
+Plotting labels to runs\detect\train12\labels.jpg...
+[34m[1mtrain: [39m[22mScanning C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk.cache... 1476 images, 0 backgrounds, 0 corrupt: 100%|██████████| 1476/14
+C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\albumentations\core\composition.py:144: UserWarning: Got processor for bboxes, but no transform to process it.
+  self._set_keys()
+[34m[1mval: [39m[22mScanning C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk.cache... 1476 images, 0 backgrounds, 0 corrupt: 100%|██████████| 1476/1476
+[34m[1moptimizer:[39m[22m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically...
+[34m[1moptimizer:[39m[22m AdamW(lr=0.001, momentum=0.9) with parameter groups 57 weight(decay=0.0), 64 weight(decay=0.0005), 63 bias(decay=0.0)
+[34m[1mTensorBoard: [39m[22mmodel graph visualization added ✅
+Image sizes 928 train, 928 val
+Using 0 dataloader workers
+Logging results to [1mruns\detect\train12
+Starting training for 50 epochs...
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

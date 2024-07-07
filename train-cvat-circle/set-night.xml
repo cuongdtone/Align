@@ -1,0 +1,1628 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>742158</id>
+      <name>set-night</name>
+      <size>96</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2024-06-16 15:15:12.438321+00:00</created>
+      <updated>2024-06-24 15:51:42.131314+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>95</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>959612</id>
+          <start>0</start>
+          <stop>95</stop>
+          <url>https://app.cvat.ai/api/jobs/957747</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>cuongtc</username>
+        <email>cuongtran73d1@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>circle</name>
+          <color>#83e070</color>
+          <type>ellipse</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>o1</name>
+          <color>#801a0e</color>
+          <type>points</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>o2</name>
+          <color>#9b93f6</color>
+          <type>points</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>o3</name>
+          <color>#aed3b2</color>
+          <type>points</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>o4</name>
+          <color>#ed0e00</color>
+          <type>points</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>o5</name>
+          <color>#9f9a09</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>o6</name>
+          <color>#0e8312</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>o7</name>
+          <color>#1796d5</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>o8</name>
+          <color>#af8737</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>o9</name>
+          <color>#e532f4</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>o10</name>
+          <color>#5ab0be</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>o11</name>
+          <color>#9b9507</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>o12</name>
+          <color>#94626d</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>bigchip</name>
+          <color>#5cd1e1</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>tl</name>
+          <color>#7ea329</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>bl</name>
+          <color>#5d68bd</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </task>
+    <dumped>2024-06-24 15:52:02.075143+00:00</dumped>
+  </meta>
+  <image id="0" name="240616_171637392_RIGHT.jpg" width="2448" height="2048">
+    <points label="o6" source="file" occluded="0" points="947.00,1367.00" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1141.00,1132.00" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1156.55" cy="1148.68" rx="812.00" ry="808.98" z_order="0">
+    </ellipse>
+    <points label="o5" source="manual" occluded="0" points="948.20,915.90" z_order="0">
+    </points>
+    <points label="o4" source="manual" occluded="0" points="1153.30,1847.10" z_order="0">
+    </points>
+    <points label="o2" source="manual" occluded="0" points="1167.50,430.00" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="455.00,1129.50" z_order="0">
+    </points>
+    <points label="o3" source="manual" occluded="0" points="1873.50,1143.90" z_order="0">
+    </points>
+  </image>
+  <image id="1" name="240616_172841274_LEFT.jpg" width="2448" height="2048">
+    <points label="o4" source="manual" occluded="0" points="1302.00,1737.90" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="1090.30,778.40" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="1087.90,1239.60" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="582.80,1013.60" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1276.00,1011.00" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1304.82" cy="1018.25" rx="832.92" ry="831.20" z_order="0">
+    </ellipse>
+    <points label="o2" source="manual" occluded="0" points="1304.90,284.60" z_order="0">
+    </points>
+  </image>
+  <image id="2" name="240616_173003309_LEFT.jpg" width="2448" height="2048">
+    <points label="o2" source="manual" occluded="0" points="1307.70,285.10" z_order="0">
+    </points>
+    <points label="o4" source="file" occluded="0" points="1302.00,1736.00" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1279.00,1011.00" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="1091.40,778.00" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="585.40,1013.00" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1306.17" cy="1017.77" rx="831.98" ry="829.08" z_order="0">
+    </ellipse>
+    <points label="o6" source="manual" occluded="0" points="1088.70,1239.00" z_order="0">
+    </points>
+  </image>
+  <image id="3" name="240616_173011894_RIGHT.jpg" width="2448" height="2048">
+    <points label="o1" source="manual" occluded="0" points="455.30,1118.30" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1143.00,1123.00" z_order="0">
+    </points>
+    <points label="o2" source="manual" occluded="0" points="1164.70,422.30" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="947.20,907.00" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1156.60" cy="1137.20" rx="811.15" ry="806.95" z_order="0">
+    </ellipse>
+    <points label="o4" source="manual" occluded="0" points="1150.20,1833.80" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="948.50,1355.70" z_order="0">
+    </points>
+    <points label="o3" source="manual" occluded="0" points="1869.10,1133.60" z_order="0">
+    </points>
+  </image>
+  <image id="4" name="240616_173133725_RIGHT.jpg" width="2448" height="2048">
+    <points label="o7" source="file" occluded="0" points="1119.00,1106.00" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="899.10,883.00" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="899.50,1331.20" z_order="0">
+    </points>
+    <points label="o4" source="manual" occluded="0" points="1116.60,1808.00" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1111.77" cy="1106.73" rx="812.03" ry="807.67" z_order="0">
+    </ellipse>
+    <points label="o1" source="manual" occluded="0" points="412.50,1110.20" z_order="0">
+    </points>
+  </image>
+  <image id="5" name="240616_173209755_RIGHT.jpg" width="2448" height="2048">
+    <points label="o4" source="manual" occluded="0" points="1115.40,1808.20" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1113.12" cy="1106.65" rx="812.63" ry="807.95" z_order="0">
+    </ellipse>
+    <points label="o6" source="manual" occluded="0" points="899.60,1331.40" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1119.00,1106.00" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="898.60,882.50" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="412.50,1110.60" z_order="0">
+    </points>
+  </image>
+  <image id="6" name="240616_173241565_LEFT.jpg" width="2448" height="2048">
+    <points label="o6" source="manual" occluded="0" points="1038.30,1194.70" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="1038.80,732.40" z_order="0">
+    </points>
+    <points label="o2" source="manual" occluded="0" points="1268.50,246.10" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1242.00,969.00" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1255.10" cy="969.32" rx="830.90" ry="825.13" z_order="0">
+    </ellipse>
+    <points label="o1" source="manual" occluded="0" points="535.50,953.10" z_order="0">
+    </points>
+  </image>
+  <image id="7" name="240616_173314221_LEFT.jpg" width="2448" height="2048">
+    <ellipse label="circle" source="manual" occluded="0" cx="1253.70" cy="969.71" rx="831.45" ry="823.91" z_order="0">
+    </ellipse>
+    <points label="o7" source="file" occluded="0" points="1242.00,969.00" z_order="0">
+    </points>
+    <points label="o2" source="manual" occluded="0" points="1268.40,246.30" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="1039.10,733.00" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="535.40,952.00" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="1038.20,1193.70" z_order="0">
+    </points>
+  </image>
+  <image id="8" name="240616_173316141_LEFT.jpg" width="2448" height="2048">
+    <points label="o5" source="manual" occluded="0" points="1039.00,733.00" z_order="0">
+    </points>
+    <points label="o2" source="file" occluded="0" points="1267.00,247.00" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1242.00,969.00" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="1038.30,1193.80" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="535.10,952.00" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1253.50" cy="969.11" rx="831.25" ry="824.96" z_order="0">
+    </ellipse>
+  </image>
+  <image id="9" name="240616_173317086_LEFT.jpg" width="2448" height="2048">
+    <points label="o5" source="manual" occluded="0" points="1039.10,733.20" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1242.00,969.00" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1254.18" cy="969.71" rx="831.02" ry="824.26" z_order="0">
+    </ellipse>
+    <points label="o1" source="manual" occluded="0" points="535.60,951.80" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="1038.00,1194.50" z_order="0">
+    </points>
+    <points label="o2" source="manual" occluded="0" points="1267.50,246.50" z_order="0">
+    </points>
+  </image>
+  <image id="10" name="240616_173322182_LEFT.jpg" width="2448" height="2048">
+    <points label="o1" source="manual" occluded="0" points="535.30,951.80" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="1039.00,733.30" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="1038.30,1194.20" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1242.00,969.00" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1254.75" cy="971.31" rx="831.80" ry="822.61" z_order="0">
+    </ellipse>
+    <points label="o2" source="file" occluded="0" points="1267.00,247.00" z_order="0">
+    </points>
+  </image>
+  <image id="11" name="240616_173322709_LEFT.jpg" width="2448" height="2048">
+    <ellipse label="circle" source="manual" occluded="0" cx="1254.06" cy="969.17" rx="830.94" ry="824.08" z_order="0">
+    </ellipse>
+    <points label="o2" source="file" occluded="0" points="1267.00,247.00" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1242.00,969.00" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="1039.30,733.50" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="535.10,951.90" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="1037.70,1194.20" z_order="0">
+    </points>
+  </image>
+  <image id="12" name="240616_173323184_LEFT.jpg" width="2448" height="2048">
+    <ellipse label="circle" source="manual" occluded="0" cx="1254.91" cy="969.95" rx="831.29" ry="824.10" z_order="0">
+    </ellipse>
+    <points label="o2" source="file" occluded="0" points="1267.00,247.00" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="535.30,952.50" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="1037.80,1193.90" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1242.00,969.00" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="1039.00,733.20" z_order="0">
+    </points>
+  </image>
+  <image id="13" name="240616_173330049_LEFT.jpg" width="2448" height="2048">
+    <ellipse label="circle" source="manual" occluded="0" cx="1254.41" cy="969.52" rx="830.74" ry="823.98" z_order="0">
+    </ellipse>
+    <points label="o1" source="manual" occluded="0" points="535.00,952.40" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="1038.80,732.70" z_order="0">
+    </points>
+    <points label="o2" source="file" occluded="0" points="1268.00,247.00" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1242.00,969.00" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="1038.90,1194.40" z_order="0">
+    </points>
+  </image>
+  <image id="14" name="240616_173332734_LEFT.jpg" width="2448" height="2048">
+    <points label="o7" source="file" occluded="0" points="1242.00,969.00" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="535.50,953.00" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="1038.70,733.60" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="1038.60,1194.40" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1254.00" cy="969.31" rx="831.40" ry="824.19" z_order="0">
+    </ellipse>
+    <points label="o2" source="file" occluded="0" points="1268.00,247.00" z_order="0">
+    </points>
+  </image>
+  <image id="15" name="240616_173341048_LEFT.jpg" width="2448" height="2048">
+    <points label="o6" source="manual" occluded="0" points="1038.10,1193.70" z_order="0">
+    </points>
+    <points label="o2" source="file" occluded="0" points="1267.00,247.00" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1242.00,969.00" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="535.20,953.00" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="1038.80,733.20" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1254.30" cy="968.98" rx="831.90" ry="824.03" z_order="0">
+    </ellipse>
+  </image>
+  <image id="16" name="240616_173347096_LEFT.jpg" width="2448" height="2048">
+    <points label="o6" source="manual" occluded="0" points="1038.00,1193.40" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1242.00,969.00" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="1039.00,733.00" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1254.30" cy="969.22" rx="830.60" ry="823.62" z_order="0">
+    </ellipse>
+    <points label="o2" source="manual" occluded="0" points="1268.20,246.10" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="535.70,952.00" z_order="0">
+    </points>
+  </image>
+  <image id="17" name="240616_173400306_RIGHT.jpg" width="2448" height="2048">
+    <points label="o6" source="manual" occluded="0" points="899.50,1330.90" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="412.20,1109.00" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1119.00,1106.00" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="898.50,882.50" z_order="0">
+    </points>
+    <points label="o4" source="manual" occluded="0" points="1116.10,1808.00" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1111.10" cy="1107.02" rx="811.15" ry="806.52" z_order="0">
+    </ellipse>
+  </image>
+  <image id="18" name="240616_173401730_RIGHT.jpg" width="2448" height="2048">
+    <points label="o4" source="manual" occluded="0" points="1116.90,1808.00" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="900.10,1330.30" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1119.00,1106.00" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1113.04" cy="1107.03" rx="809.56" ry="805.32" z_order="0">
+    </ellipse>
+    <points label="o1" source="manual" occluded="0" points="412.00,1110.70" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="898.50,882.90" z_order="0">
+    </points>
+  </image>
+  <image id="19" name="240616_173402742_RIGHT.jpg" width="2448" height="2048">
+    <points label="o4" source="file" occluded="0" points="1115.00,1808.00" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1119.00,1106.00" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="898.60,882.70" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="900.20,1330.60" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1111.63" cy="1106.05" rx="812.02" ry="805.75" z_order="0">
+    </ellipse>
+    <points label="o1" source="manual" occluded="0" points="412.70,1111.00" z_order="0">
+    </points>
+  </image>
+  <image id="20" name="240616_173403686_RIGHT.jpg" width="2448" height="2048">
+    <ellipse label="circle" source="manual" occluded="0" cx="1111.75" cy="1106.18" rx="811.25" ry="806.52" z_order="0">
+    </ellipse>
+    <points label="o7" source="file" occluded="0" points="1119.00,1106.00" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="411.00,1109.70" z_order="0">
+    </points>
+    <points label="o4" source="file" occluded="0" points="1115.00,1808.00" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="900.00,1330.70" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="898.70,882.20" z_order="0">
+    </points>
+  </image>
+  <image id="21" name="240616_173408221_RIGHT.jpg" width="2448" height="2048">
+    <points label="o7" source="file" occluded="0" points="1119.00,1106.00" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1111.42" cy="1105.67" rx="812.37" ry="805.83" z_order="0">
+    </ellipse>
+    <points label="o5" source="manual" occluded="0" points="899.00,882.30" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="412.20,1110.50" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="900.20,1330.60" z_order="0">
+    </points>
+    <points label="o4" source="file" occluded="0" points="1115.00,1808.00" z_order="0">
+    </points>
+  </image>
+  <image id="22" name="240616_173410385_RIGHT.jpg" width="2448" height="2048">
+    <points label="o4" source="file" occluded="0" points="1115.00,1808.00" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1119.00,1106.00" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="411.70,1110.50" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1112.25" cy="1105.98" rx="811.95" ry="806.67" z_order="0">
+    </ellipse>
+    <points label="o6" source="manual" occluded="0" points="900.00,1330.80" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="898.80,882.10" z_order="0">
+    </points>
+  </image>
+  <image id="23" name="240616_173411144_RIGHT.jpg" width="2448" height="2048">
+    <points label="o4" source="file" occluded="0" points="1115.00,1808.00" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1119.00,1106.00" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="898.80,882.80" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1112.27" cy="1105.63" rx="812.62" ry="806.67" z_order="0">
+    </ellipse>
+    <points label="o1" source="manual" occluded="0" points="412.20,1111.00" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="900.10,1331.00" z_order="0">
+    </points>
+  </image>
+  <image id="24" name="240616_173416146_RIGHT.jpg" width="2448" height="2048">
+    <points label="o7" source="file" occluded="0" points="1119.00,1106.00" z_order="0">
+    </points>
+    <points label="o4" source="file" occluded="0" points="1115.00,1808.00" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="899.70,1330.80" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="411.70,1110.20" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="898.60,882.20" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1112.78" cy="1107.27" rx="812.18" ry="805.43" z_order="0">
+    </ellipse>
+  </image>
+  <image id="25" name="240616_173425765_RIGHT.jpg" width="2448" height="2048">
+    <points label="o1" source="manual" occluded="0" points="411.20,1110.00" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1111.75" cy="1106.20" rx="812.55" ry="805.40" z_order="0">
+    </ellipse>
+    <points label="o4" source="file" occluded="0" points="1115.00,1808.00" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="898.40,882.30" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="899.30,1330.80" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1119.00,1105.00" z_order="0">
+    </points>
+  </image>
+  <image id="26" name="240616_173427566_RIGHT.jpg" width="2448" height="2048">
+    <points label="o7" source="file" occluded="0" points="1119.00,1105.00" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="898.70,882.30" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="411.50,1110.00" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1113.00" cy="1106.07" rx="812.40" ry="805.43" z_order="0">
+    </ellipse>
+    <points label="o4" source="file" occluded="0" points="1115.00,1808.00" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="898.90,1331.00" z_order="0">
+    </points>
+  </image>
+  <image id="27" name="240616_173431780_LEFT.jpg" width="2448" height="2048">
+    <points label="o2" source="manual" occluded="0" points="1269.20,246.30" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="535.20,952.00" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="1039.20,732.70" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1243.00,969.00" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1253.43" cy="970.08" rx="831.62" ry="822.73" z_order="0">
+    </ellipse>
+    <points label="o6" source="manual" occluded="0" points="1037.90,1192.70" z_order="0">
+    </points>
+  </image>
+  <image id="28" name="240616_173433567_LEFT.jpg" width="2448" height="2048">
+    <points label="o7" source="file" occluded="0" points="1243.00,969.00" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="535.20,955.30" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="1038.90,732.40" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="1038.20,1193.10" z_order="0">
+    </points>
+    <points label="o2" source="manual" occluded="0" points="1269.20,245.30" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1253.38" cy="970.08" rx="832.12" ry="822.68" z_order="0">
+    </ellipse>
+  </image>
+  <image id="29" name="240616_173434476_LEFT.jpg" width="2448" height="2048">
+    <points label="o1" source="manual" occluded="0" points="534.90,954.40" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1253.47" cy="969.48" rx="831.78" ry="823.18" z_order="0">
+    </ellipse>
+    <points label="o6" source="manual" occluded="0" points="1038.50,1193.50" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1243.00,969.00" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="1039.00,732.50" z_order="0">
+    </points>
+    <points label="o2" source="manual" occluded="0" points="1270.00,245.70" z_order="0">
+    </points>
+  </image>
+  <image id="30" name="240616_173440467_LEFT.jpg" width="2448" height="2048">
+    <points label="o7" source="file" occluded="0" points="1242.00,969.00" z_order="0">
+    </points>
+    <points label="o2" source="manual" occluded="0" points="1270.40,247.00" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1253.72" cy="968.70" rx="830.63" ry="823.95" z_order="0">
+    </ellipse>
+    <points label="o6" source="manual" occluded="0" points="1038.40,1193.40" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="1039.40,732.80" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="534.90,954.40" z_order="0">
+    </points>
+  </image>
+  <image id="31" name="240616_173457120_LEFT.jpg" width="2448" height="2048">
+    <points label="o5" source="manual" occluded="0" points="1091.40,777.50" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="1089.30,1238.60" z_order="0">
+    </points>
+    <points label="o2" source="file" occluded="0" points="1304.00,285.00" z_order="0">
+    </points>
+    <points label="o4" source="file" occluded="0" points="1302.00,1735.00" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1304.80" cy="1017.20" rx="831.15" ry="827.00" z_order="0">
+    </ellipse>
+    <points label="o7" source="file" occluded="0" points="1278.00,1009.00" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="584.40,1011.20" z_order="0">
+    </points>
+  </image>
+  <image id="32" name="240616_173458657_LEFT.jpg" width="2448" height="2048">
+    <points label="o1" source="file" occluded="0" points="584.00,1012.00" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1305.25" cy="1017.03" rx="832.70" ry="827.52" z_order="0">
+    </ellipse>
+    <points label="o5" source="manual" occluded="0" points="1090.90,777.50" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1278.00,1009.00" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="1089.90,1238.60" z_order="0">
+    </points>
+    <points label="o4" source="file" occluded="0" points="1302.00,1735.00" z_order="0">
+    </points>
+    <points label="o2" source="file" occluded="0" points="1304.00,285.00" z_order="0">
+    </points>
+  </image>
+  <image id="33" name="240616_173459466_LEFT.jpg" width="2448" height="2048">
+    <points label="o5" source="manual" occluded="0" points="1090.60,777.40" z_order="0">
+    </points>
+    <points label="o1" source="file" occluded="0" points="584.00,1012.00" z_order="0">
+    </points>
+    <points label="o2" source="file" occluded="0" points="1304.00,285.00" z_order="0">
+    </points>
+    <points label="o4" source="file" occluded="0" points="1302.00,1735.00" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1278.00,1009.00" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1305.35" cy="1018.13" rx="832.10" ry="827.67" z_order="0">
+    </ellipse>
+    <points label="o6" source="manual" occluded="0" points="1089.60,1238.50" z_order="0">
+    </points>
+  </image>
+  <image id="34" name="240616_173459995_LEFT.jpg" width="2448" height="2048">
+    <points label="o6" source="manual" occluded="0" points="1089.80,1238.80" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1305.22" cy="1017.40" rx="832.98" ry="827.40" z_order="0">
+    </ellipse>
+    <points label="o7" source="file" occluded="0" points="1278.00,1009.00" z_order="0">
+    </points>
+    <points label="o4" source="file" occluded="0" points="1302.00,1735.00" z_order="0">
+    </points>
+    <points label="o2" source="file" occluded="0" points="1304.00,285.00" z_order="0">
+    </points>
+    <points label="o1" source="file" occluded="0" points="584.00,1012.00" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="1090.80,777.10" z_order="0">
+    </points>
+  </image>
+  <image id="35" name="240616_173500839_LEFT.jpg" width="2448" height="2048">
+    <points label="o1" source="manual" occluded="0" points="584.60,1012.00" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1304.65" cy="1017.58" rx="831.60" ry="827.32" z_order="0">
+    </ellipse>
+    <points label="o7" source="file" occluded="0" points="1278.00,1009.00" z_order="0">
+    </points>
+    <points label="o4" source="file" occluded="0" points="1302.00,1735.00" z_order="0">
+    </points>
+    <points label="o2" source="file" occluded="0" points="1304.00,285.00" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="1091.10,777.50" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="1089.90,1237.90" z_order="0">
+    </points>
+  </image>
+  <image id="36" name="240616_173505100_LEFT.jpg" width="2448" height="2048">
+    <points label="o7" source="file" occluded="0" points="1278.00,1010.00" z_order="0">
+    </points>
+    <points label="o2" source="manual" occluded="0" points="1305.30,285.00" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="1089.00,1238.70" z_order="0">
+    </points>
+    <points label="o4" source="file" occluded="0" points="1302.00,1736.00" z_order="0">
+    </points>
+    <points label="o1" source="file" occluded="0" points="584.00,1012.00" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="1090.60,777.30" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1304.95" cy="1017.35" rx="832.00" ry="827.15" z_order="0">
+    </ellipse>
+  </image>
+  <image id="37" name="240616_173506538_LEFT.jpg" width="2448" height="2048">
+    <points label="o6" source="manual" occluded="0" points="1089.10,1238.50" z_order="0">
+    </points>
+    <points label="o2" source="manual" occluded="0" points="1305.50,285.00" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1304.65" cy="1017.15" rx="832.80" ry="826.95" z_order="0">
+    </ellipse>
+    <points label="o7" source="file" occluded="0" points="1278.00,1010.00" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="1090.70,777.20" z_order="0">
+    </points>
+    <points label="o4" source="file" occluded="0" points="1302.00,1736.00" z_order="0">
+    </points>
+    <points label="o1" source="file" occluded="0" points="584.00,1012.00" z_order="0">
+    </points>
+  </image>
+  <image id="38" name="240616_173507376_LEFT.jpg" width="2448" height="2048">
+    <points label="o4" source="file" occluded="0" points="1302.00,1736.00" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="1090.80,777.50" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1305.10" cy="1016.75" rx="832.55" ry="827.25" z_order="0">
+    </ellipse>
+    <points label="o7" source="file" occluded="0" points="1278.00,1010.00" z_order="0">
+    </points>
+    <points label="o2" source="manual" occluded="0" points="1305.70,285.40" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="1089.20,1239.30" z_order="0">
+    </points>
+    <points label="o1" source="file" occluded="0" points="584.00,1012.00" z_order="0">
+    </points>
+  </image>
+  <image id="39" name="240616_173507749_LEFT.jpg" width="2448" height="2048">
+    <points label="o4" source="file" occluded="0" points="1302.00,1736.00" z_order="0">
+    </points>
+    <points label="o1" source="file" occluded="0" points="584.00,1012.00" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1278.00,1010.00" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="1090.80,778.00" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="1090.20,1239.00" z_order="0">
+    </points>
+    <points label="o2" source="manual" occluded="0" points="1305.10,285.60" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1305.30" cy="1019.05" rx="832.45" ry="828.30" z_order="0">
+    </ellipse>
+  </image>
+  <image id="40" name="240616_173508036_LEFT.jpg" width="2448" height="2048">
+    <points label="o2" source="manual" occluded="0" points="1305.90,285.60" z_order="0">
+    </points>
+    <points label="o1" source="file" occluded="0" points="584.00,1012.00" z_order="0">
+    </points>
+    <points label="o4" source="file" occluded="0" points="1302.00,1736.00" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1278.00,1010.00" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="1089.20,1239.50" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="1090.50,777.80" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1305.15" cy="1018.30" rx="831.70" ry="828.10" z_order="0">
+    </ellipse>
+  </image>
+  <image id="41" name="240616_173508303_LEFT.jpg" width="2448" height="2048">
+    <ellipse label="circle" source="manual" occluded="0" cx="1304.85" cy="1018.10" rx="832.60" ry="827.90" z_order="0">
+    </ellipse>
+    <points label="o6" source="manual" occluded="0" points="1089.40,1238.50" z_order="0">
+    </points>
+    <points label="o2" source="manual" occluded="0" points="1305.70,285.20" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="1091.10,777.80" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1278.00,1010.00" z_order="0">
+    </points>
+    <points label="o4" source="file" occluded="0" points="1302.00,1736.00" z_order="0">
+    </points>
+    <points label="o1" source="file" occluded="0" points="584.00,1012.00" z_order="0">
+    </points>
+  </image>
+  <image id="42" name="240616_173603093_LEFT.jpg" width="2448" height="2048">
+    <points label="o2" source="manual" occluded="0" points="1306.30,285.60" z_order="0">
+    </points>
+    <points label="o4" source="file" occluded="0" points="1302.00,1736.00" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1278.00,1010.00" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="1090.90,777.80" z_order="0">
+    </points>
+    <points label="o1" source="file" occluded="0" points="584.00,1012.00" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="1089.90,1238.90" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1305.05" cy="1017.35" rx="832.45" ry="827.80" z_order="0">
+    </ellipse>
+  </image>
+  <image id="43" name="240616_173604515_LEFT.jpg" width="2448" height="2048">
+    <ellipse label="circle" source="manual" occluded="0" cx="1305.20" cy="1017.89" rx="831.95" ry="828.06" z_order="0">
+    </ellipse>
+    <points label="o1" source="file" occluded="0" points="584.00,1012.00" z_order="0">
+    </points>
+    <points label="o4" source="file" occluded="0" points="1302.00,1736.00" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1278.00,1010.00" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="1091.10,777.80" z_order="0">
+    </points>
+    <points label="o2" source="manual" occluded="0" points="1305.30,285.20" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="1090.20,1238.60" z_order="0">
+    </points>
+  </image>
+  <image id="44" name="240616_173607554_LEFT.jpg" width="2448" height="2048">
+    <points label="o1" source="file" occluded="0" points="584.00,1012.00" z_order="0">
+    </points>
+    <points label="o4" source="file" occluded="0" points="1302.00,1735.00" z_order="0">
+    </points>
+    <points label="o2" source="manual" occluded="0" points="1306.10,284.40" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1304.13" cy="1016.28" rx="832.12" ry="827.42" z_order="0">
+    </ellipse>
+    <points label="o6" source="manual" occluded="0" points="1090.40,1237.80" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="1091.50,777.00" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1279.00,1009.00" z_order="0">
+    </points>
+  </image>
+  <image id="45" name="240616_173611754_LEFT.jpg" width="2448" height="2048">
+    <points label="o4" source="file" occluded="0" points="1302.00,1736.00" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="1089.30,1238.30" z_order="0">
+    </points>
+    <points label="o1" source="file" occluded="0" points="584.00,1012.00" z_order="0">
+    </points>
+    <points label="o2" source="manual" occluded="0" points="1305.90,285.00" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1279.00,1010.00" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="1091.20,776.90" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1305.05" cy="1017.90" rx="832.00" ry="828.70" z_order="0">
+    </ellipse>
+  </image>
+  <image id="46" name="240616_173616153_RIGHT.jpg" width="2448" height="2048">
+    <ellipse label="circle" source="manual" occluded="0" cx="1156.30" cy="1135.45" rx="811.55" ry="806.00" z_order="0">
+    </ellipse>
+    <points label="o6" source="manual" occluded="0" points="947.40,1354.00" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="947.80,904.90" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="455.90,1118.00" z_order="0">
+    </points>
+    <points label="o4" source="manual" occluded="0" points="1149.60,1831.40" z_order="0">
+    </points>
+    <points label="o2" source="manual" occluded="0" points="1164.00,420.50" z_order="0">
+    </points>
+    <points label="o3" source="manual" occluded="0" points="1870.20,1130.60" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1142.00,1122.00" z_order="0">
+    </points>
+  </image>
+  <image id="47" name="240616_173618274_RIGHT.jpg" width="2448" height="2048">
+    <points label="o1" source="manual" occluded="0" points="456.10,1118.00" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1156.50" cy="1135.95" rx="811.45" ry="806.40" z_order="0">
+    </ellipse>
+    <points label="o7" source="file" occluded="0" points="1142.00,1122.00" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="947.70,1354.00" z_order="0">
+    </points>
+    <points label="o3" source="manual" occluded="0" points="1868.97,1132.84" z_order="0">
+    </points>
+    <points label="o2" source="manual" occluded="0" points="1164.30,419.90" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="947.50,904.80" z_order="0">
+    </points>
+    <points label="o4" source="manual" occluded="0" points="1150.60,1831.10" z_order="0">
+    </points>
+  </image>
+  <image id="48" name="240616_173618808_RIGHT.jpg" width="2448" height="2048">
+    <ellipse label="circle" source="manual" occluded="0" cx="1156.15" cy="1135.68" rx="811.50" ry="806.22" z_order="0">
+    </ellipse>
+    <points label="o6" source="manual" occluded="0" points="948.00,1354.00" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1142.00,1122.00" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="455.90,1118.00" z_order="0">
+    </points>
+    <points label="o4" source="manual" occluded="0" points="1150.90,1832.40" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="947.60,904.90" z_order="0">
+    </points>
+    <points label="o3" source="manual" occluded="0" points="1867.68,1130.97" z_order="0">
+    </points>
+    <points label="o2" source="manual" occluded="0" points="1164.80,420.50" z_order="0">
+    </points>
+  </image>
+  <image id="49" name="240616_173619157_RIGHT.jpg" width="2448" height="2048">
+    <points label="o5" source="manual" occluded="0" points="947.50,905.20" z_order="0">
+    </points>
+    <points label="o3" source="manual" occluded="0" points="1867.68,1131.69" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1142.00,1122.00" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="948.20,1354.00" z_order="0">
+    </points>
+    <points label="o4" source="manual" occluded="0" points="1150.30,1831.70" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="456.30,1118.00" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1156.25" cy="1135.55" rx="810.95" ry="806.40" z_order="0">
+    </ellipse>
+    <points label="o2" source="manual" occluded="0" points="1164.00,420.90" z_order="0">
+    </points>
+  </image>
+  <image id="50" name="240616_173619710_RIGHT.jpg" width="2448" height="2048">
+    <points label="o7" source="file" occluded="0" points="1142.00,1122.00" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="948.30,1354.00" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="947.40,905.10" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="456.50,1118.00" z_order="0">
+    </points>
+    <points label="o2" source="manual" occluded="0" points="1165.80,420.60" z_order="0">
+    </points>
+    <points label="o3" source="manual" occluded="0" points="1868.39,1131.69" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1156.07" cy="1135.55" rx="811.68" ry="806.55" z_order="0">
+    </ellipse>
+    <points label="o4" source="manual" occluded="0" points="1149.90,1832.70" z_order="0">
+    </points>
+  </image>
+  <image id="51" name="240616_173622801_RIGHT.jpg" width="2448" height="2048">
+    <points label="o5" source="manual" occluded="0" points="946.80,905.10" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="456.30,1119.00" z_order="0">
+    </points>
+    <points label="o4" source="manual" occluded="0" points="1149.30,1833.10" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1155.75" cy="1135.20" rx="811.30" ry="806.85" z_order="0">
+    </ellipse>
+    <points label="o2" source="manual" occluded="0" points="1164.00,421.60" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1142.00,1122.00" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="947.40,1353.60" z_order="0">
+    </points>
+    <points label="o3" source="manual" occluded="0" points="1868.39,1133.84" z_order="0">
+    </points>
+  </image>
+  <image id="52" name="240616_173629588_RIGHT.jpg" width="2448" height="2048">
+    <points label="o4" source="manual" occluded="0" points="1149.00,1833.40" z_order="0">
+    </points>
+    <points label="o2" source="manual" occluded="0" points="1163.30,421.60" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="456.30,1119.60" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="948.70,1354.00" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1156.15" cy="1137.60" rx="811.60" ry="805.20" z_order="0">
+    </ellipse>
+    <points label="o3" source="manual" occluded="0" points="1868.39,1133.84" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1142.00,1122.00" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="946.80,905.00" z_order="0">
+    </points>
+  </image>
+  <image id="53" name="240616_173657042_RIGHT.jpg" width="2448" height="2048">
+    <points label="o5" source="manual" occluded="0" points="948.00,905.70" z_order="0">
+    </points>
+    <points label="o2" source="manual" occluded="0" points="1163.40,421.60" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="456.50,1119.50" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1141.00,1121.00" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="948.30,1353.50" z_order="0">
+    </points>
+    <points label="o4" source="file" occluded="0" points="1149.00,1833.00" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1156.20" cy="1136.33" rx="810.75" ry="805.37" z_order="0">
+    </ellipse>
+    <points label="o3" source="manual" occluded="0" points="1868.39,1133.84" z_order="0">
+    </points>
+  </image>
+  <image id="54" name="240616_173658254_RIGHT.jpg" width="2448" height="2048">
+    <points label="o1" source="manual" occluded="0" points="456.10,1120.70" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1141.00,1121.00" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="947.90,1353.90" z_order="0">
+    </points>
+    <points label="o4" source="file" occluded="0" points="1149.00,1833.00" z_order="0">
+    </points>
+    <points label="o2" source="manual" occluded="0" points="1164.00,421.50" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="947.60,906.10" z_order="0">
+    </points>
+    <points label="o3" source="manual" occluded="0" points="1868.39,1133.84" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1156.10" cy="1136.48" rx="810.70" ry="805.72" z_order="0">
+    </ellipse>
+  </image>
+  <image id="55" name="240616_173701299_RIGHT.jpg" width="2448" height="2048">
+    <points label="o5" source="manual" occluded="0" points="947.70,904.70" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="456.50,1119.10" z_order="0">
+    </points>
+    <points label="o3" source="manual" occluded="0" points="1868.39,1133.84" z_order="0">
+    </points>
+    <points label="o2" source="manual" occluded="0" points="1165.50,421.30" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1155.90" cy="1134.75" rx="810.10" ry="804.60" z_order="0">
+    </ellipse>
+    <points label="o4" source="file" occluded="0" points="1149.00,1833.00" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1141.00,1120.00" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="948.00,1352.90" z_order="0">
+    </points>
+  </image>
+  <image id="56" name="240616_173707313_RIGHT.jpg" width="2448" height="2048">
+    <points label="o4" source="file" occluded="0" points="1149.00,1833.00" z_order="0">
+    </points>
+    <points label="o3" source="manual" occluded="0" points="1868.03,1133.84" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1141.00,1121.00" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="948.90,1353.90" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1156.00" cy="1137.01" rx="810.30" ry="804.69" z_order="0">
+    </ellipse>
+    <points label="o5" source="manual" occluded="0" points="947.60,905.50" z_order="0">
+    </points>
+    <points label="o2" source="manual" occluded="0" points="1164.70,421.80" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="455.70,1119.50" z_order="0">
+    </points>
+  </image>
+  <image id="57" name="240616_173711867_RIGHT.jpg" width="2448" height="2048">
+    <points label="o7" source="file" occluded="0" points="1141.00,1120.00" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="948.80,1352.90" z_order="0">
+    </points>
+    <points label="o4" source="file" occluded="0" points="1149.00,1833.00" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="456.70,1119.30" z_order="0">
+    </points>
+    <points label="o3" source="manual" occluded="0" points="1868.07,1131.99" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="947.60,904.70" z_order="0">
+    </points>
+    <points label="o2" source="manual" occluded="0" points="1165.50,421.80" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1156.45" cy="1135.52" rx="810.85" ry="803.93" z_order="0">
+    </ellipse>
+  </image>
+  <image id="58" name="240616_173714878_LEFT.jpg" width="2448" height="2048">
+    <points label="o2" source="manual" occluded="0" points="1306.50,284.90" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1306.45" cy="1017.38" rx="833.05" ry="827.58" z_order="0">
+    </ellipse>
+    <points label="o6" source="manual" occluded="0" points="1089.70,1238.90" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="1091.40,778.20" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1280.00,1009.00" z_order="0">
+    </points>
+    <points label="o4" source="manual" occluded="0" points="1304.05,1735.22" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="585.50,1013.20" z_order="0">
+    </points>
+  </image>
+  <image id="59" name="240616_173719804_LEFT.jpg" width="2448" height="2048">
+    <points label="o4" source="manual" occluded="0" points="1302.25,1733.87" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="585.00,1012.00" z_order="0">
+    </points>
+    <points label="o2" source="manual" occluded="0" points="1306.10,284.80" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1305.90" cy="1016.82" rx="833.20" ry="827.78" z_order="0">
+    </ellipse>
+    <points label="o7" source="file" occluded="0" points="1280.00,1008.00" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="1091.60,777.50" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="1091.10,1238.60" z_order="0">
+    </points>
+  </image>
+  <image id="60" name="240616_173723643_LEFT.jpg" width="2448" height="2048">
+    <ellipse label="circle" source="manual" occluded="0" cx="1305.45" cy="1017.30" rx="833.00" ry="828.05" z_order="0">
+    </ellipse>
+    <points label="o6" source="manual" occluded="0" points="1090.30,1238.20" z_order="0">
+    </points>
+    <points label="o4" source="manual" occluded="0" points="1302.70,1734.32" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="585.50,1012.00" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1280.00,1008.00" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="1091.40,777.80" z_order="0">
+    </points>
+    <points label="o2" source="manual" occluded="0" points="1306.10,284.80" z_order="0">
+    </points>
+  </image>
+  <image id="61" name="240616_173754741_LEFT.jpg" width="2448" height="2048">
+    <points label="o7" source="file" occluded="0" points="1243.00,968.00" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1253.30" cy="970.98" rx="832.45" ry="825.38" z_order="0">
+    </ellipse>
+    <points label="o6" source="manual" occluded="0" points="1038.80,1193.70" z_order="0">
+    </points>
+    <points label="o2" source="manual" occluded="0" points="1268.80,246.40" z_order="0">
+    </points>
+    <points label="o1" source="file" occluded="0" points="535.00,952.00" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="1039.70,732.80" z_order="0">
+    </points>
+  </image>
+  <image id="62" name="240616_173757344_LEFT.jpg" width="2448" height="2048">
+    <points label="o6" source="manual" occluded="0" points="1038.90,1193.70" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1252.80" cy="970.88" rx="831.55" ry="824.47" z_order="0">
+    </ellipse>
+    <points label="o7" source="file" occluded="0" points="1243.00,968.00" z_order="0">
+    </points>
+    <points label="o2" source="file" occluded="0" points="1267.00,247.00" z_order="0">
+    </points>
+    <points label="o1" source="file" occluded="0" points="535.00,952.00" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="1039.80,733.00" z_order="0">
+    </points>
+  </image>
+  <image id="63" name="240616_173802918_LEFT.jpg" width="2448" height="2048">
+    <points label="o1" source="manual" occluded="0" points="536.00,953.90" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1243.00,968.00" z_order="0">
+    </points>
+    <points label="o2" source="file" occluded="0" points="1267.00,247.00" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1252.59" cy="971.62" rx="832.31" ry="825.32" z_order="0">
+    </ellipse>
+    <points label="o5" source="manual" occluded="0" points="1039.60,733.10" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="1038.60,1194.00" z_order="0">
+    </points>
+  </image>
+  <image id="64" name="240616_173804098_LEFT.jpg" width="2448" height="2048">
+    <ellipse label="circle" source="manual" occluded="0" cx="1254.10" cy="970.50" rx="832.50" ry="825.45" z_order="0">
+    </ellipse>
+    <points label="o7" source="file" occluded="0" points="1243.00,968.00" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="1038.60,1194.00" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="535.20,953.70" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="1040.00,733.00" z_order="0">
+    </points>
+    <points label="o2" source="file" occluded="0" points="1267.00,247.00" z_order="0">
+    </points>
+  </image>
+  <image id="65" name="240616_173818395_LEFT.jpg" width="2448" height="2048">
+    <points label="o6" source="manual" occluded="0" points="1038.60,1193.60" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1243.00,968.00" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="535.20,952.80" z_order="0">
+    </points>
+    <points label="o2" source="manual" occluded="0" points="1267.90,246.40" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="1039.60,732.90" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1254.45" cy="971.42" rx="831.45" ry="825.33" z_order="0">
+    </ellipse>
+  </image>
+  <image id="66" name="240616_173823558_LEFT.jpg" width="2448" height="2048">
+    <points label="o7" source="file" occluded="0" points="1243.00,968.00" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="1040.00,733.20" z_order="0">
+    </points>
+    <points label="o2" source="manual" occluded="0" points="1268.80,246.70" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="535.20,954.90" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="1039.40,1193.20" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1254.83" cy="970.83" rx="830.47" ry="825.63" z_order="0">
+    </ellipse>
+  </image>
+  <image id="67" name="240616_173829264_RIGHT.jpg" width="2448" height="2048">
+    <points label="o1" source="manual" occluded="0" points="410.70,1110.00" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1109.70" cy="1106.55" rx="813.15" ry="806.40" z_order="0">
+    </ellipse>
+    <points label="o6" source="manual" occluded="0" points="896.90,1330.00" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1117.00,1104.00" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="896.00,882.10" z_order="0">
+    </points>
+    <points label="o4" source="manual" occluded="0" points="1113.60,1808.60" z_order="0">
+    </points>
+  </image>
+  <image id="68" name="240616_173835482_RIGHT.jpg" width="2448" height="2048">
+    <points label="o7" source="file" occluded="0" points="1117.00,1104.00" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="896.20,882.30" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="409.80,1110.00" z_order="0">
+    </points>
+    <points label="o4" source="manual" occluded="0" points="1114.30,1808.60" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1109.37" cy="1106.70" rx="812.37" ry="805.80" z_order="0">
+    </ellipse>
+    <points label="o6" source="manual" occluded="0" points="897.00,1330.90" z_order="0">
+    </points>
+  </image>
+  <image id="69" name="240616_173938985_LEFT.jpg" width="2448" height="2048">
+    <ellipse label="circle" source="manual" occluded="0" cx="1254.30" cy="971.01" rx="831.40" ry="825.21" z_order="0">
+    </ellipse>
+    <points label="o7" source="file" occluded="0" points="1243.00,968.00" z_order="0">
+    </points>
+    <points label="o2" source="manual" occluded="0" points="1268.10,245.60" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="535.20,952.00" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="1039.80,732.10" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="1039.40,1193.50" z_order="0">
+    </points>
+  </image>
+  <image id="70" name="240616_173941206_RIGHT.jpg" width="2448" height="2048">
+    <points label="o6" source="manual" occluded="0" points="897.00,1331.40" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="896.20,882.70" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1117.00,1104.00" z_order="0">
+    </points>
+    <points label="o4" source="file" occluded="0" points="1113.00,1808.00" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1109.37" cy="1106.38" rx="812.17" ry="806.12" z_order="0">
+    </ellipse>
+    <points label="o1" source="manual" occluded="0" points="409.20,1110.00" z_order="0">
+    </points>
+  </image>
+  <image id="71" name="240616_174212326_RIGHT.jpg" width="2448" height="2048">
+    <points label="o1" source="manual" occluded="0" points="456.20,1143.50" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1144.00,1128.00" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1157.72" cy="1150.87" rx="810.62" ry="806.23" z_order="0">
+    </ellipse>
+    <points label="o6" source="manual" occluded="0" points="951.70,1369.80" z_order="0">
+    </points>
+    <points label="o4" source="file" occluded="0" points="1158.00,1846.00" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="945.30,921.20" z_order="0">
+    </points>
+    <points label="o3" source="manual" occluded="0" points="1869.10,1137.38" z_order="0">
+    </points>
+    <points label="o2" source="manual" occluded="0" points="1157.90,434.60" z_order="0">
+    </points>
+  </image>
+  <image id="72" name="240616_174212430_LEFT.jpg" width="2448" height="2048">
+    <points label="o1" source="manual" occluded="0" points="586.00,1015.70" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="1090.60,1242.60" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="1093.40,782.00" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1307.32" cy="1022.53" rx="832.77" ry="826.32" z_order="0">
+    </ellipse>
+    <points label="o4" source="file" occluded="0" points="1303.00,1740.00" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1281.00,1013.00" z_order="0">
+    </points>
+    <points label="o2" source="manual" occluded="0" points="1309.00,289.30" z_order="0">
+    </points>
+  </image>
+  <image id="73" name="240616_174213318_RIGHT.jpg" width="2448" height="2048">
+    <ellipse label="circle" source="manual" occluded="0" cx="1157.00" cy="1149.59" rx="811.60" ry="805.89" z_order="0">
+    </ellipse>
+    <points label="o5" source="manual" occluded="0" points="945.90,920.10" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="456.90,1141.10" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="952.20,1369.00" z_order="0">
+    </points>
+    <points label="o2" source="manual" occluded="0" points="1156.20,433.80" z_order="0">
+    </points>
+    <points label="o3" source="manual" occluded="0" points="1868.93,1135.17" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1144.00,1127.00" z_order="0">
+    </points>
+    <points label="o4" source="file" occluded="0" points="1158.00,1845.00" z_order="0">
+    </points>
+  </image>
+  <image id="74" name="240616_174213443_LEFT.jpg" width="2448" height="2048">
+    <ellipse label="circle" source="manual" occluded="0" cx="1306.38" cy="1028.37" rx="832.52" ry="827.13" z_order="0">
+    </ellipse>
+    <points label="o4" source="manual" occluded="0" points="1305.05,1745.04" z_order="0">
+    </points>
+    <points label="o2" source="manual" occluded="0" points="1304.80,295.60" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="1092.60,1248.60" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="587.00,1025.20" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1283.00,1020.00" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="1092.70,789.20" z_order="0">
+    </points>
+  </image>
+  <image id="75" name="240616_174214420_LEFT.jpg" width="2448" height="2048">
+    <points label="o2" source="manual" occluded="0" points="1309.00,291.40" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1305.52" cy="1022.94" rx="832.08" ry="827.09" z_order="0">
+    </ellipse>
+    <points label="o5" source="manual" occluded="0" points="1093.50,783.90" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="1091.00,1243.70" z_order="0">
+    </points>
+    <points label="o4" source="manual" occluded="0" points="1301.70,1741.00" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="586.20,1018.90" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1281.00,1015.00" z_order="0">
+    </points>
+  </image>
+  <image id="76" name="240616_174217602_LEFT.jpg" width="2448" height="2048">
+    <ellipse label="circle" source="manual" occluded="0" cx="1254.45" cy="968.47" rx="829.45" ry="824.73" z_order="0">
+    </ellipse>
+    <points label="o1" source="manual" occluded="0" points="536.40,968.80" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1243.00,968.00" z_order="0">
+    </points>
+    <points label="o2" source="manual" occluded="0" points="1255.30,246.10" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="1035.20,737.20" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="1045.50,1197.10" z_order="0">
+    </points>
+  </image>
+  <image id="77" name="240616_174437997_LEFT.jpg" width="2448" height="2048">
+    <points label="o5" source="manual" occluded="0" points="1037.30,737.20" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="1046.60,1197.30" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1246.00,968.00" z_order="0">
+    </points>
+    <points label="o2" source="file" occluded="0" points="1255.00,247.00" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="536.90,969.00" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1257.25" cy="968.73" rx="830.65" ry="825.37" z_order="0">
+    </ellipse>
+  </image>
+  <image id="78" name="240616_174557024_LEFT.jpg" width="2448" height="2048">
+    <ellipse label="circle" source="manual" occluded="0" cx="1256.82" cy="969.38" rx="830.98" ry="823.42" z_order="0">
+    </ellipse>
+    <points label="o7" source="file" occluded="0" points="1247.00,970.00" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="537.00,968.30" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="1037.70,738.80" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="1046.50,1198.70" z_order="0">
+    </points>
+    <points label="o2" source="file" occluded="0" points="1256.00,248.00" z_order="0">
+    </points>
+  </image>
+  <image id="79" name="240616_174557989_LEFT.jpg" width="2448" height="2048">
+    <points label="o6" source="manual" occluded="0" points="1046.90,1199.30" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1246.00,969.00" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="537.90,970.50" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1257.10" cy="970.37" rx="830.20" ry="825.23" z_order="0">
+    </ellipse>
+    <points label="o5" source="manual" occluded="0" points="1037.30,738.80" z_order="0">
+    </points>
+    <points label="o2" source="manual" occluded="0" points="1255.00,247.40" z_order="0">
+    </points>
+  </image>
+  <image id="80" name="240616_174558967_LEFT.jpg" width="2448" height="2048">
+    <points label="o5" source="manual" occluded="0" points="1037.40,738.80" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="1045.60,1199.30" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1246.00,970.00" z_order="0">
+    </points>
+    <points label="o2" source="file" occluded="0" points="1256.00,248.00" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="537.70,970.70" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1257.30" cy="968.85" rx="831.25" ry="824.70" z_order="0">
+    </ellipse>
+  </image>
+  <image id="81" name="240616_174559931_LEFT.jpg" width="2448" height="2048">
+    <points label="o2" source="manual" occluded="0" points="1255.20,247.10" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="537.20,972.10" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1257.15" cy="970.70" rx="832.20" ry="822.90" z_order="0">
+    </ellipse>
+    <points label="o6" source="manual" occluded="0" points="1046.00,1200.00" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1246.00,969.00" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="1037.30,739.00" z_order="0">
+    </points>
+  </image>
+  <image id="82" name="240616_174646271_LEFT.jpg" width="2448" height="2048">
+    <points label="o1" source="manual" occluded="0" points="537.90,971.00" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="1037.90,739.50" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="1046.00,1200.90" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1257.53" cy="970.62" rx="831.37" ry="823.68" z_order="0">
+    </ellipse>
+    <points label="o2" source="file" occluded="0" points="1255.00,248.00" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1246.00,970.00" z_order="0">
+    </points>
+  </image>
+  <image id="83" name="240616_174648123_RIGHT.jpg" width="2448" height="2048">
+    <ellipse label="circle" source="manual" occluded="0" cx="1113.80" cy="1112.95" rx="812.90" ry="806.10" z_order="0">
+    </ellipse>
+    <points label="o5" source="manual" occluded="0" points="899.50,888.60" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="413.00,1114.50" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="899.60,1337.10" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1120.00,1107.00" z_order="0">
+    </points>
+    <points label="o4" source="file" occluded="0" points="1114.00,1815.00" z_order="0">
+    </points>
+  </image>
+  <image id="84" name="240616_174733713_RIGHT.jpg" width="2448" height="2048">
+    <points label="o4" source="file" occluded="0" points="1112.00,1815.00" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="898.60,1336.20" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1120.00,1111.00" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1113.10" cy="1113.47" rx="812.50" ry="806.33" z_order="0">
+    </ellipse>
+    <points label="o5" source="manual" occluded="0" points="899.10,887.20" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="412.20,1115.70" z_order="0">
+    </points>
+  </image>
+  <image id="85" name="240616_174734348_LEFT.jpg" width="2448" height="2048">
+    <points label="o6" source="manual" occluded="0" points="1045.30,1199.20" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1245.00,970.00" z_order="0">
+    </points>
+    <points label="o1" source="file" occluded="0" points="536.00,969.00" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="1037.40,739.30" z_order="0">
+    </points>
+    <points label="o2" source="manual" occluded="0" points="1256.00,247.20" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1255.70" cy="969.58" rx="829.90" ry="823.77" z_order="0">
+    </ellipse>
+  </image>
+  <image id="86" name="240616_174736567_LEFT.jpg" width="2448" height="2048">
+    <points label="o7" source="file" occluded="0" points="1280.00,1015.00" z_order="0">
+    </points>
+    <points label="o2" source="manual" occluded="0" points="1310.50,291.70" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1307.03" cy="1024.31" rx="833.92" ry="827.16" z_order="0">
+    </ellipse>
+    <points label="o5" source="manual" occluded="0" points="1093.30,784.00" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="586.00,1018.20" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="1090.80,1244.40" z_order="0">
+    </points>
+    <points label="o4" source="manual" occluded="0" points="1303.00,1742.00" z_order="0">
+    </points>
+  </image>
+  <image id="87" name="240616_174737540_RIGHT.jpg" width="2448" height="2048">
+    <points label="o6" source="manual" occluded="0" points="953.20,1366.90" z_order="0">
+    </points>
+    <points label="o2" source="manual" occluded="0" points="1159.50,432.50" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1157.60" cy="1147.05" rx="810.90" ry="806.10" z_order="0">
+    </ellipse>
+    <points label="o3" source="manual" occluded="0" points="1870.40,1134.40" z_order="0">
+    </points>
+    <points label="o4" source="file" occluded="0" points="1159.00,1844.00" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="946.70,918.90" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1145.00,1126.00" z_order="0">
+    </points>
+    <points label="o1" source="file" occluded="0" points="457.00,1138.00" z_order="0">
+    </points>
+  </image>
+  <image id="88" name="240616_174738514_RIGHT.jpg" width="2448" height="2048">
+    <points label="o6" source="manual" occluded="0" points="952.90,1367.60" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="947.00,920.00" z_order="0">
+    </points>
+    <points label="o3" source="manual" occluded="0" points="1870.13,1132.95" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1158.20" cy="1148.08" rx="810.80" ry="805.37" z_order="0">
+    </ellipse>
+    <points label="o1" source="manual" occluded="0" points="457.20,1139.00" z_order="0">
+    </points>
+    <points label="o2" source="manual" occluded="0" points="1158.00,432.50" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1145.00,1126.00" z_order="0">
+    </points>
+    <points label="o4" source="file" occluded="0" points="1159.00,1845.00" z_order="0">
+    </points>
+  </image>
+  <image id="89" name="240616_174829729_LEFT.jpg" width="2448" height="2048">
+    <ellipse label="circle" source="manual" occluded="0" cx="1308.03" cy="1024.55" rx="831.47" ry="827.65" z_order="0">
+    </ellipse>
+    <points label="o5" source="manual" occluded="0" points="1095.00,785.20" z_order="0">
+    </points>
+    <points label="o4" source="manual" occluded="0" points="1302.47,1741.89" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1285.00,1017.00" z_order="0">
+    </points>
+    <points label="o2" source="manual" occluded="0" points="1311.80,292.70" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="1092.30,1245.00" z_order="0">
+    </points>
+    <points label="o1" source="manual" occluded="0" points="588.70,1018.20" z_order="0">
+    </points>
+  </image>
+  <image id="90" name="240616_174830833_RIGHT.jpg" width="2448" height="2048">
+    <points label="o2" source="manual" occluded="0" points="1162.00,431.30" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1147.00,1126.00" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="949.10,917.10" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="954.00,1366.70" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1159.38" cy="1146.20" rx="810.98" ry="806.05" z_order="0">
+    </ellipse>
+    <points label="o1" source="manual" occluded="0" points="459.20,1136.50" z_order="0">
+    </points>
+    <points label="o4" source="file" occluded="0" points="1159.00,1843.00" z_order="0">
+    </points>
+    <points label="o3" source="manual" occluded="0" points="1871.73,1136.67" z_order="0">
+    </points>
+  </image>
+  <image id="91" name="240616_174832988_LEFT.jpg" width="2448" height="2048">
+    <points label="o2" source="manual" occluded="0" points="1254.20,248.10" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="1045.00,1200.20" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="1036.10,739.30" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1245.00,970.00" z_order="0">
+    </points>
+    <points label="o1" source="file" occluded="0" points="536.00,971.00" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1254.90" cy="970.72" rx="829.60" ry="825.18" z_order="0">
+    </ellipse>
+  </image>
+  <image id="92" name="240616_174836455_RIGHT.jpg" width="2448" height="2048">
+    <points label="o7" source="file" occluded="0" points="1123.00,1110.00" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="902.10,887.30" z_order="0">
+    </points>
+    <points label="o4" source="file" occluded="0" points="1118.00,1813.00" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="902.00,1335.60" z_order="0">
+    </points>
+    <points label="o1" source="file" occluded="0" points="414.00,1113.00" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1115.24" cy="1111.91" rx="812.65" ry="807.41" z_order="0">
+    </ellipse>
+  </image>
+  <image id="93" name="240616_175005369_LEFT.jpg" width="2448" height="2048">
+    <points label="o7" source="file" occluded="0" points="1286.00,1016.00" z_order="0">
+    </points>
+    <points label="o2" source="manual" occluded="0" points="1309.90,290.60" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1308.75" cy="1024.17" rx="831.55" ry="826.28" z_order="0">
+    </ellipse>
+    <points label="o6" source="manual" occluded="0" points="1092.60,1244.80" z_order="0">
+    </points>
+    <points label="o4" source="manual" occluded="0" points="1305.30,1740.60" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="1095.90,784.30" z_order="0">
+    </points>
+    <points label="o1" source="file" occluded="0" points="588.00,1016.00" z_order="0">
+    </points>
+  </image>
+  <image id="94" name="240616_175006539_RIGHT.jpg" width="2448" height="2048">
+    <points label="o2" source="manual" occluded="0" points="1158.50,432.80" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1146.00,1127.00" z_order="0">
+    </points>
+    <points label="o4" source="file" occluded="0" points="1159.00,1845.00" z_order="0">
+    </points>
+    <points label="o1" source="file" occluded="0" points="457.00,1138.00" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="947.40,919.00" z_order="0">
+    </points>
+    <points label="o3" source="manual" occluded="0" points="1870.98,1136.29" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="953.80,1368.10" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1159.35" cy="1148.90" rx="811.35" ry="805.15" z_order="0">
+    </ellipse>
+  </image>
+  <image id="95" name="240616_175007513_RIGHT.jpg" width="2448" height="2048">
+    <points label="o4" source="manual" occluded="0" points="1163.20,1844.50" z_order="0">
+    </points>
+    <ellipse label="circle" source="manual" occluded="0" cx="1159.05" cy="1148.25" rx="811.30" ry="805.20" z_order="0">
+    </ellipse>
+    <points label="o3" source="manual" occluded="0" points="1871.32,1135.28" z_order="0">
+    </points>
+    <points label="o6" source="manual" occluded="0" points="955.20,1368.00" z_order="0">
+    </points>
+    <points label="o5" source="manual" occluded="0" points="947.60,919.70" z_order="0">
+    </points>
+    <points label="o1" source="file" occluded="0" points="458.00,1139.00" z_order="0">
+    </points>
+    <points label="o7" source="file" occluded="0" points="1147.00,1127.00" z_order="0">
+    </points>
+    <points label="o2" source="manual" occluded="0" points="1158.90,432.50" z_order="0">
+    </points>
+  </image>
+</annotations>

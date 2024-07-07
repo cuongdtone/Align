@@ -1,0 +1,7 @@
+names:
+  0: circle
+  1: bigchip
+
+path: 'C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\'
+train: 'align-circle'
+val: 'align-circle'

@@ -1,0 +1,1072 @@
+
+[34m[1mtrain: [39m[22mScanning C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk... 600 images, 0 backgrounds, 0 corrupt: 100%|██████████| 600/600 [00:00<00:00, 1621.99it/s]
+Freezing layer 'model.22.dfl.conv.weight'
+WARNING ⚠️ imgsz=[920] must be multiple of max stride 32, updating to [928]
+[34m[1mtrain: [39m[22mNew cache created: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk.cache
+C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\albumentations\core\composition.py:144: UserWarning: Got processor for bboxes, but no transform to process it.
+  self._set_keys()
+[34m[1mval: [39m[22mScanning C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk.cache... 600 images, 0 backgrounds, 0 corrupt: 100%|██████████| 600/600 [00:00<?, ?it/s]
+[34m[1malbumentations: [39m[22mBlur(p=0.01, blur_limit=(3, 7)), MedianBlur(p=0.01, blur_limit=(3, 7)), ToGray(p=0.01), CLAHE(p=0.01, clip_limit=(1, 4.0), tile_grid_size=(8, 8))
+Plotting labels to runs\detect\train7\labels.jpg...
+[34m[1moptimizer:[39m[22m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically...
+[34m[1moptimizer:[39m[22m AdamW(lr=0.001, momentum=0.9) with parameter groups 57 weight(decay=0.0), 64 weight(decay=0.0005), 63 bias(decay=0.0)
+  0%|          | 0/38 [00:00<?, ?it/s]
+[34m[1mTensorBoard: [39m[22mmodel graph visualization added ✅
+Image sizes 928 train, 928 val
+Using 0 dataloader workers
+Logging results to [1mruns\detect\train7
+Starting training for 20 epochs...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       1/20         0G      1.879      4.849       1.13         58        928: 100%|██████████| 38/38 [05:15<00:00,  8.30s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  95%|█████████▍| 18/19 [02:26<00:08,  8.08s/it]
+                   all        600       2670      0.525       0.65      0.552      0.374
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [02:32<00:00,  8.04s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       2/20         0G      1.149      2.326      0.903         63        928: 100%|██████████| 38/38 [05:08<00:00,  8.11s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  95%|█████████▍| 18/19 [02:16<00:07,  7.56s/it]
+                   all        600       2670      0.687      0.863      0.844      0.638
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [02:21<00:00,  7.46s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       3/20         0G      0.994      1.563     0.8769         50        928: 100%|██████████| 38/38 [05:06<00:00,  8.08s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  95%|█████████▍| 18/19 [02:07<00:07,  7.05s/it]
+                   all        600       2670      0.945      0.899      0.984      0.774
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [02:12<00:00,  6.97s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       4/20         0G     0.8588      1.206      0.857         64        928: 100%|██████████| 38/38 [05:07<00:00,  8.10s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  95%|█████████▍| 18/19 [02:07<00:07,  7.06s/it]
+                   all        600       2670      0.978      0.948      0.989      0.805
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [02:12<00:00,  6.97s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       5/20         0G     0.8398      1.084      0.854         34        928: 100%|██████████| 38/38 [05:07<00:00,  8.10s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  95%|█████████▍| 18/19 [02:04<00:06,  6.93s/it]
+                   all        600       2670      0.971      0.987      0.991       0.82
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [02:09<00:00,  6.83s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       6/20         0G     0.7693     0.9964     0.8398         42        928: 100%|██████████| 38/38 [05:07<00:00,  8.09s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  95%|█████████▍| 18/19 [02:01<00:06,  6.77s/it]
+                   all        600       2670      0.972      0.986      0.989      0.819
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [02:06<00:00,  6.68s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       7/20         0G     0.7199     0.9238     0.8327         52        928: 100%|██████████| 38/38 [05:07<00:00,  8.09s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  95%|█████████▍| 18/19 [01:57<00:06,  6.51s/it]
+                   all        600       2670      0.977       0.99      0.993      0.852
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [02:02<00:00,  6.43s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       8/20         0G      0.664     0.8599     0.8232         36        928: 100%|██████████| 38/38 [05:07<00:00,  8.08s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [02:00<00:00,  6.33s/it]
+  0%|          | 0/38 [00:00<?, ?it/s]
+                   all        600       2670      0.985      0.988      0.993      0.832
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       9/20         0G     0.6746     0.8327     0.8227         61        928: 100%|██████████| 38/38 [05:07<00:00,  8.08s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  95%|█████████▍| 18/19 [01:54<00:06,  6.32s/it]
+                   all        600       2670      0.979      0.992      0.992       0.87
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [01:58<00:00,  6.25s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      10/20         0G      0.664     0.8087     0.8228         85        928: 100%|██████████| 38/38 [05:08<00:00,  8.12s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  95%|█████████▍| 18/19 [01:52<00:06,  6.23s/it]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [01:57<00:00,  6.19s/it]
+C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\albumentations\core\composition.py:144: UserWarning: Got processor for bboxes, but no transform to process it.
+  self._set_keys()
+  0%|          | 0/38 [00:00<?, ?it/s]
+Closing dataloader mosaic
+[34m[1malbumentations: [39m[22mBlur(p=0.01, blur_limit=(3, 7)), MedianBlur(p=0.01, blur_limit=(3, 7)), ToGray(p=0.01), CLAHE(p=0.01, clip_limit=(1, 4.0), tile_grid_size=(8, 8))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      11/20         0G     0.6696     0.8296     0.8304         36        928: 100%|██████████| 38/38 [05:02<00:00,  7.97s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  95%|█████████▍| 18/19 [01:51<00:06,  6.18s/it]
+                   all        600       2670      0.984      0.987      0.993      0.861
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [01:56<00:00,  6.13s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      12/20         0G     0.5876     0.7611     0.8188         33        928: 100%|██████████| 38/38 [05:03<00:00,  7.98s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  95%|█████████▍| 18/19 [01:52<00:06,  6.17s/it]
+                   all        600       2670       0.99      0.984      0.993      0.882
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [01:56<00:00,  6.14s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      13/20         0G     0.5749     0.7246      0.813         36        928: 100%|██████████| 38/38 [05:02<00:00,  7.96s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [01:58<00:00,  6.25s/it]
+  0%|          | 0/38 [00:00<?, ?it/s]
+                   all        600       2670      0.988      0.989      0.993      0.866
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      14/20         0G     0.5881     0.6946     0.8206         34        928: 100%|██████████| 38/38 [05:03<00:00,  7.99s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [02:03<00:00,  6.51s/it]
+  0%|          | 0/38 [00:00<?, ?it/s]
+                   all        600       2670      0.988      0.995      0.993      0.886
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      15/20         0G     0.5203     0.6568     0.8053         34        928: 100%|██████████| 38/38 [05:34<00:00,  8.80s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [02:05<00:00,  6.62s/it]
+  0%|          | 0/38 [00:00<?, ?it/s]
+                   all        600       2670      0.989      0.996      0.993        0.9
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      16/20         0G      0.502     0.6303     0.8035         34        928: 100%|██████████| 38/38 [05:21<00:00,  8.47s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [02:03<00:00,  6.49s/it]
+  0%|          | 0/38 [00:00<?, ?it/s]
+                   all        600       2670      0.989      0.992      0.993      0.893
+
+
+
+
+
+      17/20         0G      0.492     0.5982     0.7984         73        928:  13%|█▎        | 5/38 [00:45<05:02,  9.16s/it]
+Traceback (most recent call last):
+  File "C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\y8-train-lmk.py", line 7, in <module>
+    results = model.train(data=r'align.yaml',
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\model.py", line 601, in train
+    self.trainer.train()
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\trainer.py", line 208, in train
+    self._do_train(world_size)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\trainer.py", line 376, in _do_train
+    self.loss, self.loss_items = self.model(batch)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\nn\tasks.py", line 82, in forward
+    return self.loss(x, *args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\nn\tasks.py", line 260, in loss
+    preds = self.forward(batch["img"]) if preds is None else preds
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\nn\tasks.py", line 83, in forward
+    return self.predict(x, *args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\nn\tasks.py", line 101, in predict
+    return self._predict_once(x, profile, visualize, embed)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\nn\tasks.py", line 122, in _predict_once
+    x = m(x)  # run
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\nn\modules\head.py", line 46, in forward
+    x[i] = torch.cat((self.cv2[i](x[i]), self.cv3[i](x[i])), 1)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\container.py", line 217, in forward
+    input = module(input)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\nn\modules\conv.py", line 50, in forward
+    return self.act(self.bn(self.conv(x)))
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\conv.py", line 460, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\conv.py", line 456, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\y8-train-lmk.py", line 7, in <module>
+    results = model.train(data=r'align.yaml',
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\model.py", line 601, in train
+    self.trainer.train()
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\trainer.py", line 208, in train
+    self._do_train(world_size)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\trainer.py", line 376, in _do_train
+    self.loss, self.loss_items = self.model(batch)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\nn\tasks.py", line 82, in forward
+    return self.loss(x, *args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\nn\tasks.py", line 260, in loss
+    preds = self.forward(batch["img"]) if preds is None else preds
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\nn\tasks.py", line 83, in forward
+    return self.predict(x, *args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\nn\tasks.py", line 101, in predict
+    return self._predict_once(x, profile, visualize, embed)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\nn\tasks.py", line 122, in _predict_once
+    x = m(x)  # run
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\nn\modules\head.py", line 46, in forward
+    x[i] = torch.cat((self.cv2[i](x[i]), self.cv3[i](x[i])), 1)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\container.py", line 217, in forward
+    input = module(input)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\nn\modules\conv.py", line 50, in forward
+    return self.act(self.bn(self.conv(x)))
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\conv.py", line 460, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\conv.py", line 456, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+KeyboardInterrupt

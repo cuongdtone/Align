@@ -1,0 +1,633 @@
+Freezing layer 'model.22.dfl.conv.weight'
+WARNING ⚠️ imgsz=[920] must be multiple of max stride 32, updating to [928]
+[34m[1mtrain: [39m[22mNew cache created: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk.cache
+[34m[1malbumentations: [39m[22mBlur(p=0.01, blur_limit=(3, 7)), MedianBlur(p=0.01, blur_limit=(3, 7)), ToGray(p=0.01), CLAHE(p=0.01, clip_limit=(1, 4.0), tile_grid_size=(8, 8))
+[34m[1mtrain: [39m[22mScanning C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk... 276 images, 0 backgrounds, 0 corrupt: 100%|██████████| 276/27
+C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\albumentations\core\composition.py:144: UserWarning: Got processor for bboxes, but no transform to process it.
+  self._set_keys()
+[34m[1mval: [39m[22mScanning C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk.cache... 276 images, 0 backgrounds, 0 corrupt: 100%|██████████| 27
+Plotting labels to runs\detect\train5\labels.jpg...
+[34m[1moptimizer:[39m[22m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically...
+[34m[1moptimizer:[39m[22m AdamW(lr=0.00125, momentum=0.9) with parameter groups 57 weight(decay=0.0), 64 weight(decay=0.0005), 63 bias(decay=0.0)
+  0%|          | 0/18 [00:00<?, ?it/s]
+[34m[1mTensorBoard: [39m[22mmodel graph visualization added ✅
+Image sizes 928 train, 928 val
+Using 0 dataloader workers
+Logging results to [1mruns\detect\train5
+Starting training for 20 epochs...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       1/20         0G      2.154      5.412      1.332         19        928: 100%|██████████| 18/18 [02:36<00:00,  8.69s/it]
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  89%|████████▉ | 8/9 [01:04<00:08,  8.15s/it]
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 9/9 [01:09<00:00,  7.77s/it]
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       2/20         0G      1.576      3.223       1.01         18        928: 100%|██████████| 18/18 [02:28<00:00,  8.26s/it]
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  89%|████████▉ | 8/9 [01:05<00:08,  8.25s/it]
+                   all        276        786      0.386      0.735        0.6      0.383
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 9/9 [01:10<00:00,  7.89s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       3/20         0G       1.27      2.356     0.9398         17        928: 100%|██████████| 18/18 [02:25<00:00,  8.09s/it]
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  89%|████████▉ | 8/9 [01:03<00:07,  7.82s/it]
+                   all        276        786      0.759      0.856      0.805      0.517
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 9/9 [01:08<00:00,  7.57s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       4/20         0G      1.154       2.03     0.9353         15        928: 100%|██████████| 18/18 [02:41<00:00,  9.00s/it]
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  89%|████████▉ | 8/9 [01:02<00:07,  7.88s/it]
+                   all        276        786      0.764      0.892      0.883      0.645
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 9/9 [01:07<00:00,  7.50s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       5/20         0G      1.093      1.624     0.9189         21        928: 100%|██████████| 18/18 [02:28<00:00,  8.27s/it]
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  89%|████████▉ | 8/9 [00:58<00:07,  7.29s/it]
+                   all        276        786      0.915      0.949      0.978      0.739
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 9/9 [01:02<00:00,  6.96s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       6/20         0G      1.079      1.425     0.9095         18        928: 100%|██████████| 18/18 [02:27<00:00,  8.18s/it]
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  89%|████████▉ | 8/9 [00:57<00:07,  7.24s/it]
+                   all        276        786      0.921      0.923      0.971      0.722
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 9/9 [01:01<00:00,  6.88s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       7/20         0G     0.9261      1.353     0.8811         16        928: 100%|██████████| 18/18 [02:25<00:00,  8.10s/it]
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  89%|████████▉ | 8/9 [01:01<00:08,  8.13s/it]
+                   all        276        786      0.992      0.969      0.987      0.747
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 9/9 [01:06<00:00,  7.34s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       8/20         0G     0.9149      1.247     0.8826         14        928: 100%|██████████| 18/18 [02:30<00:00,  8.35s/it]
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  89%|████████▉ | 8/9 [00:56<00:07,  7.17s/it]
+                   all        276        786      0.995      0.974      0.985      0.715
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 9/9 [01:01<00:00,  6.79s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       9/20         0G     0.8897      1.155     0.8646         26        928: 100%|██████████| 18/18 [02:26<00:00,  8.13s/it]
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  89%|████████▉ | 8/9 [00:55<00:06,  6.99s/it]
+                   all        276        786      0.992      0.985      0.985      0.804
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 9/9 [00:59<00:00,  6.64s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      10/20         0G     0.8238      1.152     0.8613         10        928: 100%|██████████| 18/18 [02:30<00:00,  8.34s/it]
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  89%|████████▉ | 8/9 [00:56<00:07,  7.03s/it]
+                   all        276        786      0.991      0.978      0.985      0.846
+Closing dataloader mosaic
+[34m[1malbumentations: [39m[22mBlur(p=0.01, blur_limit=(3, 7)), MedianBlur(p=0.01, blur_limit=(3, 7)), ToGray(p=0.01), CLAHE(p=0.01, clip_limit=(1, 4.0), tile_grid_size=(8, 8))
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 9/9 [01:00<00:00,  6.73s/it]
+C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\albumentations\core\composition.py:144: UserWarning: Got processor for bboxes, but no transform to process it.
+  self._set_keys()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      11/20         0G     0.7814      1.212     0.8614         11        928: 100%|██████████| 18/18 [02:23<00:00,  8.00s/it]
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  89%|████████▉ | 8/9 [00:56<00:07,  7.16s/it]
+                   all        276        786      0.996      0.984      0.988      0.818
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 9/9 [01:00<00:00,  6.77s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      12/20         0G     0.7267      1.131     0.8538         11        928: 100%|██████████| 18/18 [02:25<00:00,  8.09s/it]
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  89%|████████▉ | 8/9 [00:55<00:06,  6.98s/it]
+                   all        276        786      0.997      0.986      0.988      0.813
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 9/9 [01:00<00:00,  6.69s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      13/20         0G     0.6895      1.067     0.8522         12        928: 100%|██████████| 18/18 [02:25<00:00,  8.07s/it]
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  89%|████████▉ | 8/9 [00:54<00:06,  6.84s/it]
+                   all        276        786      0.997      0.989      0.988      0.853
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 9/9 [00:59<00:00,  6.57s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      14/20         0G     0.6448      1.023     0.8486         11        928: 100%|██████████| 18/18 [02:23<00:00,  7.98s/it]
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  89%|████████▉ | 8/9 [00:56<00:06,  6.96s/it]
+                   all        276        786      0.998      0.986      0.988      0.843
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 9/9 [01:00<00:00,  6.70s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      15/20         0G     0.6344      0.983     0.8383         10        928: 100%|██████████| 18/18 [02:23<00:00,  7.98s/it]
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  89%|████████▉ | 8/9 [00:56<00:07,  7.08s/it]
+                   all        276        786      0.997      0.987      0.988      0.863
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 9/9 [01:00<00:00,  6.71s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      16/20         0G     0.6251     0.9295     0.8387         13        928: 100%|██████████| 18/18 [02:39<00:00,  8.87s/it]
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 9/9 [01:09<00:00,  7.69s/it]
+  0%|          | 0/18 [00:00<?, ?it/s]
+                   all        276        786      0.997      0.992      0.988      0.866
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      17/20         0G     0.6063     0.9228     0.8294         13        928: 100%|██████████| 18/18 [02:26<00:00,  8.15s/it]
+
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 9/9 [01:02<00:00,  6.89s/it]
+                   all        276        786      0.999      0.992      0.988       0.87
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      18/20         0G     0.5751     0.8599     0.8245         12        928: 100%|██████████| 18/18 [02:23<00:00,  8.00s/it]
+
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 9/9 [01:01<00:00,  6.79s/it]
+                   all        276        786      0.998      0.992      0.988      0.876
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      19/20         0G     0.5792     0.8627     0.8239         10        928: 100%|██████████| 18/18 [02:28<00:00,  8.25s/it]
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  89%|████████▉ | 8/9 [00:56<00:07,  7.23s/it]
+                   all        276        786      0.998      0.991      0.988      0.876
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 9/9 [01:01<00:00,  6.78s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      20/20         0G     0.5483     0.8281     0.8217         11        928: 100%|██████████| 18/18 [02:26<00:00,  8.14s/it]
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  89%|████████▉ | 8/9 [00:56<00:07,  7.00s/it]
+                   all        276        786      0.998      0.992      0.988       0.89
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 9/9 [01:00<00:00,  6.72s/it]
+Optimizer stripped from runs\detect\train5\weights\last.pt, 6.3MB
+Optimizer stripped from runs\detect\train5\weights\best.pt, 6.3MB
+Validating runs\detect\train5\weights\best.pt...
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   0%|          | 0/9 [00:00<?, ?it/s]
+Ultralytics YOLOv8.1.15 🚀 Python-3.10.8 torch-2.2.0+cpu CPU (12th Gen Intel Core(TM) i5-12400)
+
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 9/9 [00:53<00:00,  5.95s/it]
+                   all        276        786      0.998      0.992      0.988       0.89
+                    l0        276        192      0.998          1      0.995      0.875
+                    l1        276        192      0.997          1      0.995      0.872
+                    l2        276        204      0.999          1      0.995      0.909
+                    l3        276        198      0.998       0.97      0.968      0.905
+Speed: 2.1ms preprocess, 118.0ms inference, 0.0ms loss, 15.0ms postprocess per image
+Results saved to [1mruns\detect\train5
+wandb: WARNING Artifacts logged anonymously cannot be claimed and expire after 7 days.
+wandb: WARNING Artifacts logged anonymously cannot be claimed and expire after 7 days.
+wandb: WARNING Artifacts logged anonymously cannot be claimed and expire after 7 days.
+wandb: WARNING Artifacts logged anonymously cannot be claimed and expire after 7 days.
+wandb: WARNING Artifacts logged anonymously cannot be claimed and expire after 7 days.

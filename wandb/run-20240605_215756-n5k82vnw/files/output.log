@@ -1,0 +1,671 @@
+Freezing layer 'model.22.dfl.conv.weight'
+[34m[1malbumentations: [39m[22mBlur(p=0.01, blur_limit=(3, 7)), MedianBlur(p=0.01, blur_limit=(3, 7)), ToGray(p=0.01), CLAHE(p=0.01, clip_limit=(1, 4.0), tile_grid_size=(8, 8))
+Plotting labels to runs\segment\train6\labels.jpg...
+[34m[1mtrain: [39m[22mScanning C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-circle.cache... 600 images, 0 backgrounds, 0 corrupt: 100%|██████████| 600/600 [00:00<?, ?it/s]
+C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\albumentations\core\composition.py:144: UserWarning: Got processor for bboxes, but no transform to process it.
+  self._set_keys()
+[34m[1mval: [39m[22mScanning C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-circle.cache... 600 images, 0 backgrounds, 0 corrupt: 100%|██████████| 600/600 [00:00<?, ?it/s]
+[34m[1moptimizer:[39m[22m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically...
+[34m[1moptimizer:[39m[22m AdamW(lr=0.001667, momentum=0.9) with parameter groups 66 weight(decay=0.0), 77 weight(decay=0.0005), 76 bias(decay=0.0)
+[34m[1mTensorBoard: [39m[22mmodel graph visualization added ✅
+Image sizes 640 train, 640 val
+Using 0 dataloader workers
+Logging results to [1mruns\segment\train6
+Starting training for 50 epochs...
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       1/50         0G       0.44     0.9577     0.8841     0.9698         39        640: 100%|██████████| 38/38 [08:07<00:00, 12.82s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95):  95%|█████████▍| 18/19 [03:03<00:10, 10.12s/it]
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [03:10<00:00, 10.04s/it]
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       2/50         0G     0.3991     0.5658     0.4491      0.907         34        640: 100%|██████████| 38/38 [07:15<00:00, 11.46s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [02:55<00:00,  9.24s/it]
+                   all        600       1212      0.999       0.99       0.99      0.908      0.999       0.99       0.99      0.946
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       3/50         0G     0.3906     0.4524     0.3857     0.8998         28        640: 100%|██████████| 38/38 [07:12<00:00, 11.38s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95):  95%|█████████▍| 18/19 [02:48<00:09,  9.29s/it]
+                   all        600       1212          1       0.99       0.99      0.885          1       0.99       0.99      0.956
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [02:55<00:00,  9.22s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       4/50         0G     0.3715     0.3858     0.3523     0.8899         32        640: 100%|██████████| 38/38 [07:11<00:00, 11.36s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95):  95%|█████████▍| 18/19 [02:56<00:09,  9.94s/it]
+                   all        600       1212          1       0.99       0.99       0.93          1       0.99       0.99      0.956
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [03:02<00:00,  9.62s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       5/50         0G     0.3685     0.3703     0.3281      0.888         34        640: 100%|██████████| 38/38 [07:16<00:00, 11.48s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95):  95%|█████████▍| 18/19 [02:45<00:09,  9.19s/it]
+                   all        600       1212          1       0.99       0.99      0.964          1       0.99       0.99      0.855
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [02:52<00:00,  9.08s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       6/50         0G     0.3377     0.3845     0.3023     0.8844         32        640: 100%|██████████| 38/38 [07:11<00:00, 11.36s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [02:52<00:00,  9.06s/it]
+  0%|          | 0/38 [00:00<?, ?it/s]
+                   all        600       1212      0.999       0.99      0.991       0.95      0.999       0.99      0.991      0.858
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       7/50         0G     0.3236     0.3701     0.2827     0.8813         31        640: 100%|██████████| 38/38 [07:12<00:00, 11.38s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95):  95%|█████████▍| 18/19 [02:44<00:09,  9.09s/it]
+                   all        600       1212      0.999       0.99      0.991       0.97      0.999       0.99      0.991      0.968
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [02:51<00:00,  9.03s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       8/50         0G     0.2973     0.3952     0.2541     0.8758         29        640: 100%|██████████| 38/38 [07:10<00:00, 11.33s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [02:52<00:00,  9.09s/it]
+  0%|          | 0/38 [00:00<?, ?it/s]
+                   all        600       1212          1       0.99      0.993      0.983          1       0.99      0.993      0.959
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       9/50         0G     0.2939     0.3368     0.2527     0.8695         28        640: 100%|██████████| 38/38 [07:11<00:00, 11.36s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95):  95%|█████████▍| 18/19 [02:45<00:09,  9.17s/it]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [02:52<00:00,  9.05s/it]
+  0%|          | 0/38 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      10/50         0G     0.2895     0.3365     0.2447     0.8662         28        640: 100%|██████████| 38/38 [07:12<00:00, 11.37s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [02:52<00:00,  9.08s/it]
+  0%|          | 0/38 [00:00<?, ?it/s]
+                   all        600       1212          1       0.99      0.991      0.977          1       0.99      0.991      0.969
+
+
+
+
+      11/50         0G     0.2767     0.3882      0.233     0.8642         67        640:  13%|█▎        | 5/38 [01:04<07:03, 12.85s/it]
+Traceback (most recent call last):
+  File "C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\y8-circle-train.py", line 8, in <module>
+    results = model.train(data='align-circle.yaml', epochs=50, imgsz=640, batch=16, translate=0, scale=0, flipud=0.5, crop_fraction=0.1)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\model.py", line 601, in train
+    self.trainer.train()
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\trainer.py", line 208, in train
+    self._do_train(world_size)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\trainer.py", line 358, in _do_train
+    for i, batch in pbar:
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\tqdm\std.py", line 1181, in __iter__
+    for obj in iterable:
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\data\build.py", line 49, in __iter__
+    yield next(self.iterator)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\utils\data\dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\utils\data\dataloader.py", line 675, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\utils\data\_utils\fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\utils\data\_utils\fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\data\base.py", line 251, in __getitem__
+    return self.transforms(self.get_image_and_label(index))
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\data\base.py", line 257, in get_image_and_label
+    label["img"], label["ori_shape"], label["resized_shape"] = self.load_image(index)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\data\base.py", line 157, in load_image
+    im = cv2.imread(f)  # BGR
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\utils\patches.py", line 26, in imread
+    return cv2.imdecode(np.fromfile(filename, np.uint8), flags)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\y8-circle-train.py", line 8, in <module>
+    results = model.train(data='align-circle.yaml', epochs=50, imgsz=640, batch=16, translate=0, scale=0, flipud=0.5, crop_fraction=0.1)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\model.py", line 601, in train
+    self.trainer.train()
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\trainer.py", line 208, in train
+    self._do_train(world_size)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\trainer.py", line 358, in _do_train
+    for i, batch in pbar:
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\tqdm\std.py", line 1181, in __iter__
+    for obj in iterable:
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\data\build.py", line 49, in __iter__
+    yield next(self.iterator)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\utils\data\dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\utils\data\dataloader.py", line 675, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\utils\data\_utils\fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\utils\data\_utils\fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\data\base.py", line 251, in __getitem__
+    return self.transforms(self.get_image_and_label(index))
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\data\base.py", line 257, in get_image_and_label
+    label["img"], label["ori_shape"], label["resized_shape"] = self.load_image(index)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\data\base.py", line 157, in load_image
+    im = cv2.imread(f)  # BGR
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\utils\patches.py", line 26, in imread
+    return cv2.imdecode(np.fromfile(filename, np.uint8), flags)
+KeyboardInterrupt

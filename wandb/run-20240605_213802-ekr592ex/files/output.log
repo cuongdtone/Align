@@ -1,0 +1,297 @@
+
+[34m[1mtrain: [39m[22mScanning C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-circle... 70 images, 0 backgrounds, 0 corrupt:  12%|█▏        | 70/600 [00:01<00:13, 39.12it/s]
+
+
+
+
+
+
+[34m[1mtrain: [39m[22mScanning C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-circle... 585 images, 0 backgrounds, 0 corrupt:  98%|█████████▊| 585/600 [00:14<00:00, 41.94it/s]
+
+[34m[1mtrain: [39m[22mScanning C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-circle... 600 images, 0 backgrounds, 0 corrupt: 100%|██████████| 600/600 [00:14<00:00, 41.94it/s]
+[34m[1malbumentations: [39m[22mBlur(p=0.01, blur_limit=(3, 7)), MedianBlur(p=0.01, blur_limit=(3, 7)), ToGray(p=0.01), CLAHE(p=0.01, clip_limit=(1, 4.0), tile_grid_size=(8, 8))
+Plotting labels to runs\segment\train4\labels.jpg...
+C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\albumentations\core\composition.py:144: UserWarning: Got processor for bboxes, but no transform to process it.
+  self._set_keys()
+[34m[1mval: [39m[22mScanning C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-circle.cache... 600 images, 0 backgrounds, 0 corrupt: 100%|██████████| 600/600 [00:00<?, ?it/s]
+[34m[1moptimizer:[39m[22m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically...
+[34m[1moptimizer:[39m[22m AdamW(lr=0.001667, momentum=0.9) with parameter groups 66 weight(decay=0.0), 77 weight(decay=0.0005), 76 bias(decay=0.0)
+[34m[1mTensorBoard: [39m[22mmodel graph visualization added ✅
+Image sizes 640 train, 640 val
+Using 0 dataloader workers
+Logging results to [1mruns\segment\train4
+Starting training for 50 epochs...
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       1/50         0G     0.2332     0.6395     0.2073     0.8591         39        640: 100%|██████████| 38/38 [03:49<00:00,  6.04s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95):  95%|█████████▍| 18/19 [01:46<00:05,  5.93s/it]
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [01:50<00:00,  5.82s/it]
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       2/50         0G     0.2625     0.3524     0.2284     0.8595         34        640: 100%|██████████| 38/38 [03:57<00:00,  6.26s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95):  95%|█████████▍| 18/19 [01:45<00:06,  6.22s/it]
+                   all        600       1212          1       0.99      0.991      0.979          1       0.99      0.991      0.952
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [01:50<00:00,  5.79s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       3/50         0G     0.2829     0.4171     0.2457     0.8624         28        640: 100%|██████████| 38/38 [04:10<00:00,  6.58s/it]
+
+
+
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95):  58%|█████▊    | 11/19 [01:11<00:51,  6.49s/it]
+Traceback (most recent call last):
+  File "C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\y8-circle-train.py", line 8, in <module>
+    results = model.train(data='align-circle.yaml', epochs=50, imgsz=640, batch=16, translate=0, scale=0, flipud=0.5, crop_fraction=0.1)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\model.py", line 601, in train
+    self.trainer.train()
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\trainer.py", line 208, in train
+    self._do_train(world_size)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\trainer.py", line 424, in _do_train
+    self.metrics, self.fitness = self.validate()
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\trainer.py", line 544, in validate
+    metrics = self.validator(self)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\utils\_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\validator.py", line 176, in __call__
+    preds = model(batch["img"], augment=augment)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\nn\tasks.py", line 83, in forward
+    return self.predict(x, *args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\nn\tasks.py", line 101, in predict
+    return self._predict_once(x, profile, visualize, embed)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\nn\tasks.py", line 122, in _predict_once
+    x = m(x)  # run
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\nn\modules\head.py", line 107, in forward
+    p = self.proto(x[0])  # mask protos
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\nn\modules\block.py", line 76, in forward
+    return self.cv3(self.cv2(self.upsample(self.cv1(x))))
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\nn\modules\conv.py", line 50, in forward
+    return self.act(self.bn(self.conv(x)))
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\activation.py", line 393, in forward
+    return F.silu(input, inplace=self.inplace)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\functional.py", line 2074, in silu
+    return torch._C._nn.silu_(input)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\y8-circle-train.py", line 8, in <module>
+    results = model.train(data='align-circle.yaml', epochs=50, imgsz=640, batch=16, translate=0, scale=0, flipud=0.5, crop_fraction=0.1)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\model.py", line 601, in train
+    self.trainer.train()
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\trainer.py", line 208, in train
+    self._do_train(world_size)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\trainer.py", line 424, in _do_train
+    self.metrics, self.fitness = self.validate()
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\trainer.py", line 544, in validate
+    metrics = self.validator(self)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\utils\_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\validator.py", line 176, in __call__
+    preds = model(batch["img"], augment=augment)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\nn\tasks.py", line 83, in forward
+    return self.predict(x, *args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\nn\tasks.py", line 101, in predict
+    return self._predict_once(x, profile, visualize, embed)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\nn\tasks.py", line 122, in _predict_once
+    x = m(x)  # run
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\nn\modules\head.py", line 107, in forward
+    p = self.proto(x[0])  # mask protos
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\nn\modules\block.py", line 76, in forward
+    return self.cv3(self.cv2(self.upsample(self.cv1(x))))
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\nn\modules\conv.py", line 50, in forward
+    return self.act(self.bn(self.conv(x)))
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\activation.py", line 393, in forward
+    return F.silu(input, inplace=self.inplace)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\functional.py", line 2074, in silu
+    return torch._C._nn.silu_(input)
+KeyboardInterrupt

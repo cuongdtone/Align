@@ -1,0 +1,92 @@
+
+[34m[1mtrain: [39m[22mScanning C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk... 346 images, 0 backgrounds, 0 corrupt: 100%|██████████| 346/346 [00:00<00:00, 2083.83it/s]
+Freezing layer 'model.22.dfl.conv.weight'
+WARNING ⚠️ imgsz=[920] must be multiple of max stride 32, updating to [928]
+[34m[1mtrain: [39m[22mNew cache created: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk.cache
+C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\albumentations\core\composition.py:144: UserWarning: Got processor for bboxes, but no transform to process it.
+  self._set_keys()
+[34m[1mval: [39m[22mScanning C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk.cache... 346 images, 0 backgrounds, 0 corrupt: 100%|██████████| 346/346 [00:00<?, ?it/s]
+[34m[1malbumentations: [39m[22mBlur(p=0.01, blur_limit=(3, 7)), MedianBlur(p=0.01, blur_limit=(3, 7)), ToGray(p=0.01), CLAHE(p=0.01, clip_limit=(1, 4.0), tile_grid_size=(8, 8))
+Plotting labels to runs\detect\train13\labels.jpg...
+Traceback (most recent call last):
+  File "C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\y8-train-lmk.py", line 7, in <module>
+    results = model.train(data=r'align.yaml',
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\model.py", line 601, in train
+    self.trainer.train()
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\trainer.py", line 208, in train
+    self._do_train(world_size)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\trainer.py", line 330, in _do_train
+    self.run_callbacks("on_train_start")
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\trainer.py", line 171, in run_callbacks
+    callback(self)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\utils\callbacks\tensorboard.py", line 82, in on_train_start
+    _log_tensorboard_graph(trainer)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\utils\callbacks\tensorboard.py", line 48, in _log_tensorboard_graph
+    WRITER.add_graph(torch.jit.trace(de_parallel(trainer.model), im, strict=False), [])
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\jit\_trace.py", line 806, in trace
+    return trace_module(
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\jit\_trace.py", line 1039, in trace_module
+    module = make_module(mod, _module_class, _compilation_unit)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\jit\_trace.py", line 616, in make_module
+    return _module_class(mod, _compilation_unit=_compilation_unit)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\jit\_trace.py", line 1189, in __init__
+    tmp_module._modules[name] = make_module(
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\jit\_trace.py", line 616, in make_module
+    return _module_class(mod, _compilation_unit=_compilation_unit)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\jit\_trace.py", line 1189, in __init__
+    tmp_module._modules[name] = make_module(
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\jit\_trace.py", line 616, in make_module
+    return _module_class(mod, _compilation_unit=_compilation_unit)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\jit\_trace.py", line 1189, in __init__
+    tmp_module._modules[name] = make_module(
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\jit\_trace.py", line 616, in make_module
+    return _module_class(mod, _compilation_unit=_compilation_unit)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\jit\_trace.py", line 1189, in __init__
+    tmp_module._modules[name] = make_module(
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\jit\_trace.py", line 608, in make_module
+    elif torch._jit_internal.module_has_exports(mod):
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\_jit_internal.py", line 769, in module_has_exports
+    if hasattr(mod, name):
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\y8-train-lmk.py", line 7, in <module>
+    results = model.train(data=r'align.yaml',
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\model.py", line 601, in train
+    self.trainer.train()
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\trainer.py", line 208, in train
+    self._do_train(world_size)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\trainer.py", line 330, in _do_train
+    self.run_callbacks("on_train_start")
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\trainer.py", line 171, in run_callbacks
+    callback(self)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\utils\callbacks\tensorboard.py", line 82, in on_train_start
+    _log_tensorboard_graph(trainer)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\utils\callbacks\tensorboard.py", line 48, in _log_tensorboard_graph
+    WRITER.add_graph(torch.jit.trace(de_parallel(trainer.model), im, strict=False), [])
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\jit\_trace.py", line 806, in trace
+    return trace_module(
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\jit\_trace.py", line 1039, in trace_module
+    module = make_module(mod, _module_class, _compilation_unit)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\jit\_trace.py", line 616, in make_module
+    return _module_class(mod, _compilation_unit=_compilation_unit)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\jit\_trace.py", line 1189, in __init__
+    tmp_module._modules[name] = make_module(
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\jit\_trace.py", line 616, in make_module
+    return _module_class(mod, _compilation_unit=_compilation_unit)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\jit\_trace.py", line 1189, in __init__
+    tmp_module._modules[name] = make_module(
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\jit\_trace.py", line 616, in make_module
+    return _module_class(mod, _compilation_unit=_compilation_unit)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\jit\_trace.py", line 1189, in __init__
+    tmp_module._modules[name] = make_module(
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\jit\_trace.py", line 616, in make_module
+    return _module_class(mod, _compilation_unit=_compilation_unit)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\jit\_trace.py", line 1189, in __init__
+    tmp_module._modules[name] = make_module(
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\jit\_trace.py", line 608, in make_module
+    elif torch._jit_internal.module_has_exports(mod):
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\_jit_internal.py", line 769, in module_has_exports
+    if hasattr(mod, name):
+KeyboardInterrupt
+[34m[1moptimizer:[39m[22m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically...
+[34m[1moptimizer:[39m[22m AdamW(lr=0.001, momentum=0.9) with parameter groups 57 weight(decay=0.0), 64 weight(decay=0.0005), 63 bias(decay=0.0)

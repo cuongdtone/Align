@@ -1,0 +1,805 @@
+Freezing layer 'model.22.dfl.conv.weight'
+WARNING ⚠️ imgsz=[920] must be multiple of max stride 32, updating to [928]
+[34m[1mtrain: [39m[22mNew cache created: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk.cache
+[34m[1mtrain: [39m[22mScanning C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk... 2076 images, 0 backgrounds, 0 corrupt: 100%|██████████| 2076/2076 [00:01<00:00, 1722.34it/s]
+[34m[1malbumentations: [39m[22mBlur(p=0.01, blur_limit=(3, 7)), MedianBlur(p=0.01, blur_limit=(3, 7)), ToGray(p=0.01), CLAHE(p=0.01, clip_limit=(1, 4.0), tile_grid_size=(8, 8))
+Plotting labels to runs\detect\train14\labels.jpg...
+C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\albumentations\core\composition.py:144: UserWarning: Got processor for bboxes, but no transform to process it.
+  self._set_keys()
+[34m[1mval: [39m[22mScanning C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk.cache... 2076 images, 0 backgrounds, 0 corrupt: 100%|██████████| 2076/2076 [00:00<?, ?it/s]
+[34m[1moptimizer:[39m[22m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically...
+[34m[1moptimizer:[39m[22m AdamW(lr=0.001, momentum=0.9) with parameter groups 57 weight(decay=0.0), 64 weight(decay=0.0005), 63 bias(decay=0.0)
+[34m[1mTensorBoard: [39m[22mmodel graph visualization added ✅
+Image sizes 928 train, 928 val
+Using 0 dataloader workers
+Logging results to [1mruns\detect\train14
+Starting training for 50 epochs...
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       1/50         0G     0.4213     0.3014     0.7884        104        928: 100%|██████████| 130/130 [19:23<00:00,  8.95s/it]
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       2/50         0G     0.4292     0.2949     0.7907         91        928:  99%|█████████▉| 129/130 [19:22<00:08,  8.93s/it]
+       2/50         0G     0.4293     0.2946     0.7908         87        928: 100%|██████████| 130/130 [19:29<00:00,  9.00s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       3/50         0G     0.4444     0.2989     0.7894         92        928: 100%|██████████| 130/130 [19:18<00:00,  8.91s/it]
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       4/50         0G     0.4535     0.3006     0.7907        121        928:  99%|█████████▉| 129/130 [18:57<00:08,  8.67s/it]
+       4/50         0G     0.4537     0.3007     0.7909        108        928: 100%|██████████| 130/130 [19:03<00:00,  8.80s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       5/50         0G     0.4351     0.2985     0.7872        121        928:  99%|█████████▉| 129/130 [19:12<00:09,  9.25s/it]
+       5/50         0G      0.435     0.2983     0.7873         92        928: 100%|██████████| 130/130 [19:18<00:00,  8.91s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       6/50         0G     0.4438     0.3003     0.7865        116        928:  52%|█████▏    | 68/130 [10:07<09:14,  8.94s/it]
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\linecache.py", line 46, in getlines
+    return updatecache(filename, module_globals)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\linecache.py", line 137, in updatecache
+    lines = fp.readlines()
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\codecs.py", line 319, in decode
+    def decode(self, input, final=False):
+KeyboardInterrupt
+Original exception was:
+Traceback (most recent call last):
+  File "C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\y8-train-lmk.py", line 7, in <module>
+    results = model.train(data=r'align.yaml',
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\model.py", line 601, in train
+    self.trainer.train()
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\trainer.py", line 208, in train
+    self._do_train(world_size)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\trainer.py", line 376, in _do_train
+    self.loss, self.loss_items = self.model(batch)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\nn\tasks.py", line 82, in forward
+    return self.loss(x, *args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\nn\tasks.py", line 260, in loss
+    preds = self.forward(batch["img"]) if preds is None else preds
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\nn\tasks.py", line 83, in forward
+    return self.predict(x, *args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\nn\tasks.py", line 101, in predict
+    return self._predict_once(x, profile, visualize, embed)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\nn\tasks.py", line 122, in _predict_once
+    x = m(x)  # run
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\nn\modules\block.py", line 225, in forward
+    y.extend(m(y[-1]) for m in self.m)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\nn\modules\block.py", line 225, in <genexpr>
+    y.extend(m(y[-1]) for m in self.m)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\nn\modules\block.py", line 335, in forward
+    return x + self.cv2(self.cv1(x)) if self.add else self.cv2(self.cv1(x))
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\nn\modules\conv.py", line 50, in forward
+    return self.act(self.bn(self.conv(x)))
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\batchnorm.py", line 175, in forward
+    return F.batch_norm(
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\functional.py", line 2482, in batch_norm
+    return torch.batch_norm(
+KeyboardInterrupt

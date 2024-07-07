@@ -1,0 +1,464 @@
+2024-06-07 00:36:36,218 INFO    StreamThr :26628 [internal.py:wandb_internal():88] W&B internal server running at pid: 26628, started at: 2024-06-07 00:36:36.218173
+2024-06-07 00:36:36,219 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: status
+2024-06-07 00:36:36,222 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: status
+2024-06-07 00:36:36,223 INFO    WriterThread:26628 [datastore.py:open_for_write():75] open: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\run-zjepkdex.wandb
+2024-06-07 00:36:36,223 DEBUG   SenderThread:26628 [sender.py:send():303] send: header
+2024-06-07 00:36:36,223 DEBUG   SenderThread:26628 [sender.py:send():303] send: run
+2024-06-07 00:36:37,002 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: check_version
+2024-06-07 00:36:37,003 INFO    SenderThread:26628 [dir_watcher.py:__init__():216] watching files in: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files
+2024-06-07 00:36:37,003 INFO    SenderThread:26628 [sender.py:_start_run_threads():928] run started: zjepkdex with start time 1717695396.217174
+2024-06-07 00:36:37,003 DEBUG   SenderThread:26628 [sender.py:send():303] send: summary
+2024-06-07 00:36:37,003 INFO    SenderThread:26628 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-06-07 00:36:37,003 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: check_version
+2024-06-07 00:36:37,275 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: run_start
+2024-06-07 00:36:37,286 DEBUG   HandlerThread:26628 [system_info.py:__init__():31] System info init
+2024-06-07 00:36:37,286 DEBUG   HandlerThread:26628 [system_info.py:__init__():46] System info init done
+2024-06-07 00:36:37,286 INFO    HandlerThread:26628 [system_monitor.py:start():150] Starting system monitor
+2024-06-07 00:36:37,286 INFO    SystemMonitor:26628 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2024-06-07 00:36:37,287 INFO    HandlerThread:26628 [system_monitor.py:probe():168] Collecting system info
+2024-06-07 00:36:37,289 DEBUG   HandlerThread:26628 [system_info.py:probe():195] Probing system
+2024-06-07 00:36:37,292 INFO    SystemMonitor:26628 [interfaces.py:start():168] Started cpu
+2024-06-07 00:36:37,293 INFO    SystemMonitor:26628 [interfaces.py:start():168] Started disk
+2024-06-07 00:36:37,297 INFO    SystemMonitor:26628 [interfaces.py:start():168] Started memory
+2024-06-07 00:36:37,303 INFO    SystemMonitor:26628 [interfaces.py:start():168] Started network
+2024-06-07 00:36:37,303 DEBUG   HandlerThread:26628 [git.py:repo():40] git repository is invalid
+2024-06-07 00:36:37,303 DEBUG   HandlerThread:26628 [system_info.py:probe():241] Probing system done
+2024-06-07 00:36:37,303 DEBUG   HandlerThread:26628 [system_monitor.py:probe():177] {'os': 'Windows-10-10.0.22631-SP0', 'python': '3.10.8', 'heartbeatAt': '2024-06-06T17:36:37.292283', 'startedAt': '2024-06-06T17:36:36.208862', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'C:\\Users\\PC\\Desktop\\Freelancer\\Aligh-with-arm\\synthetics\\y8-train-lmk.py', 'codePath': 'y8-train-lmk.py', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2500.0, 'min': 0.0, 'max': 2500.0}, 'cpu_freq_per_core': [{'current': 2500.0, 'min': 0.0, 'max': 2500.0}], 'disk': {'total': 237.61913681030273, 'used': 221.18212890625}, 'memory': {'total': 15.747482299804688}}
+2024-06-07 00:36:37,303 INFO    HandlerThread:26628 [system_monitor.py:probe():178] Finished collecting system info
+2024-06-07 00:36:37,303 INFO    HandlerThread:26628 [system_monitor.py:probe():181] Publishing system info
+2024-06-07 00:36:37,303 DEBUG   HandlerThread:26628 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2024-06-07 00:36:37,304 DEBUG   HandlerThread:26628 [system_info.py:_save_pip():67] Saving pip packages done
+2024-06-07 00:36:37,304 INFO    HandlerThread:26628 [system_monitor.py:probe():183] Finished publishing system info
+2024-06-07 00:36:37,353 DEBUG   SenderThread:26628 [sender.py:send():303] send: files
+2024-06-07 00:36:37,353 INFO    SenderThread:26628 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2024-06-07 00:36:37,362 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:36:37,362 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:36:37,793 DEBUG   SenderThread:26628 [sender.py:send():303] send: telemetry
+2024-06-07 00:36:38,009 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\wandb-metadata.json
+2024-06-07 00:36:38,009 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\requirements.txt
+2024-06-07 00:36:38,009 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:36:38,009 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\wandb-summary.json
+2024-06-07 00:36:38,272 INFO    Thread-20 :26628 [upload_job.py:push():143] Uploaded file C:\Users\PC\AppData\Local\Temp\tmpvb1ags30wandb\81rgdkip-wandb-metadata.json
+2024-06-07 00:36:39,625 DEBUG   SenderThread:26628 [sender.py:send():303] send: telemetry
+2024-06-07 00:36:39,890 DEBUG   SenderThread:26628 [sender.py:send():303] send: telemetry
+2024-06-07 00:36:40,024 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:36:41,056 DEBUG   SenderThread:26628 [sender.py:send():303] send: telemetry
+2024-06-07 00:36:42,034 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:36:44,050 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:36:46,067 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:36:52,810 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:36:52,810 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:36:56,162 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:37:04,235 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:37:07,274 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\config.yaml
+2024-06-07 00:37:08,219 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:37:08,219 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:37:14,325 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:37:22,405 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:37:23,665 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:37:23,665 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:37:30,483 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:37:37,312 DEBUG   SystemMonitor:26628 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2024-06-07 00:37:37,313 DEBUG   SenderThread:26628 [sender.py:send():303] send: stats
+2024-06-07 00:37:38,589 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:37:39,063 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:37:39,063 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:37:48,687 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:37:54,460 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:37:54,460 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:37:56,763 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:38:04,840 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:38:07,314 DEBUG   SenderThread:26628 [sender.py:send():303] send: stats
+2024-06-07 00:38:09,932 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:38:09,933 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:38:12,912 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:38:20,974 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:38:25,410 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:38:25,410 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:38:29,032 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:38:37,331 DEBUG   SenderThread:26628 [sender.py:send():303] send: stats
+2024-06-07 00:38:39,112 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:38:40,853 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:38:40,853 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:38:47,202 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:38:55,278 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:38:56,327 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:38:56,327 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:39:03,340 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:39:07,336 DEBUG   SenderThread:26628 [sender.py:send():303] send: stats
+2024-06-07 00:39:11,433 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:39:11,749 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:39:11,749 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:39:19,500 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:39:26,586 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:39:27,205 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:39:27,205 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:39:36,677 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:39:37,345 DEBUG   SenderThread:26628 [sender.py:send():303] send: stats
+2024-06-07 00:39:42,673 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:39:42,673 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:39:44,725 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:39:52,822 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:39:58,060 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:39:58,060 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:40:00,867 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:40:07,356 DEBUG   SenderThread:26628 [sender.py:send():303] send: stats
+2024-06-07 00:40:08,927 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:40:13,469 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:40:13,470 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:40:16,953 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:40:25,024 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:40:28,883 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:40:28,883 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:40:33,099 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:40:37,366 DEBUG   SenderThread:26628 [sender.py:send():303] send: stats
+2024-06-07 00:40:41,189 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:40:44,267 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:40:44,267 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:40:51,257 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:40:59,314 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:40:59,678 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:40:59,678 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:41:07,381 DEBUG   SenderThread:26628 [sender.py:send():303] send: stats
+2024-06-07 00:41:07,395 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:41:15,154 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:41:15,154 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:41:15,424 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:41:23,477 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:41:30,544 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:41:30,544 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:41:31,512 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:41:37,395 DEBUG   SenderThread:26628 [sender.py:send():303] send: stats
+2024-06-07 00:41:39,587 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:41:45,940 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:41:45,940 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:41:47,699 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:41:55,787 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:42:01,342 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:42:01,342 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:42:03,860 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:42:07,396 DEBUG   SenderThread:26628 [sender.py:send():303] send: stats
+2024-06-07 00:42:11,934 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:42:16,734 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:42:16,735 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:42:21,991 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:42:30,067 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:42:32,193 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:42:32,193 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:42:37,398 DEBUG   SenderThread:26628 [sender.py:send():303] send: stats
+2024-06-07 00:42:38,130 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:42:46,181 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:42:47,576 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:42:47,576 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:42:54,261 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:43:02,332 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:43:02,951 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:43:02,951 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:43:07,410 DEBUG   SenderThread:26628 [sender.py:send():303] send: stats
+2024-06-07 00:43:10,402 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:43:18,346 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:43:18,347 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:43:18,456 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:43:26,543 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:43:33,769 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:43:33,769 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:43:35,648 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:43:37,422 DEBUG   SenderThread:26628 [sender.py:send():303] send: stats
+2024-06-07 00:43:43,735 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:43:49,220 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:43:49,220 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:43:51,835 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:43:59,909 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:44:04,697 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:44:04,697 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:44:07,436 DEBUG   SenderThread:26628 [sender.py:send():303] send: stats
+2024-06-07 00:44:07,975 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:44:16,043 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:44:20,103 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:44:20,103 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:44:24,092 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:44:32,165 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:44:35,549 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:44:35,549 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:44:37,438 DEBUG   SenderThread:26628 [sender.py:send():303] send: stats
+2024-06-07 00:44:42,238 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:44:50,301 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:44:51,048 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:44:51,048 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:44:58,347 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:45:06,432 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:45:06,527 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:45:06,527 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:45:07,445 DEBUG   SenderThread:26628 [sender.py:send():303] send: stats
+2024-06-07 00:45:14,520 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:45:22,009 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:45:22,009 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:45:22,587 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:45:30,676 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:45:37,457 DEBUG   SenderThread:26628 [sender.py:send():303] send: stats
+2024-06-07 00:45:37,473 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:45:37,473 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:45:40,772 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:45:46,837 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:45:52,946 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:45:52,947 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:45:54,912 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:46:05,002 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:46:07,457 DEBUG   SenderThread:26628 [sender.py:send():303] send: stats
+2024-06-07 00:46:08,440 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:46:08,440 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:46:13,087 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:46:21,145 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:46:23,891 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:46:23,891 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:46:29,222 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:46:37,293 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:46:37,469 DEBUG   SenderThread:26628 [sender.py:send():303] send: stats
+2024-06-07 00:46:39,242 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:46:39,243 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:46:45,366 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:46:53,456 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:46:54,692 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:46:54,693 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:47:01,555 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:47:07,474 DEBUG   SenderThread:26628 [sender.py:send():303] send: stats
+2024-06-07 00:47:09,613 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:47:10,092 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:47:10,092 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:47:19,705 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:47:25,502 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:47:25,502 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:47:27,753 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:47:35,831 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:47:37,482 DEBUG   SenderThread:26628 [sender.py:send():303] send: stats
+2024-06-07 00:47:40,869 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:47:40,870 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:47:43,914 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:47:50,986 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:47:56,244 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:47:56,244 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:47:59,068 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:48:07,181 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:48:07,483 DEBUG   SenderThread:26628 [sender.py:send():303] send: stats
+2024-06-07 00:48:11,659 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:48:11,659 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:48:15,228 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:48:23,288 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:48:27,015 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:48:27,016 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:48:31,361 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:48:37,490 DEBUG   SenderThread:26628 [sender.py:send():303] send: stats
+2024-06-07 00:48:39,452 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:48:42,431 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:48:42,431 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:48:49,559 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:48:57,651 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:48:57,777 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:48:57,777 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:49:07,501 DEBUG   SenderThread:26628 [sender.py:send():303] send: stats
+2024-06-07 00:49:07,735 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:49:13,222 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:49:13,222 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:49:15,813 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:49:25,923 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:49:28,634 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:49:28,634 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:49:34,012 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:49:35,316 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: partial_history
+2024-06-07 00:49:35,349 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: partial_history
+2024-06-07 00:49:36,036 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:49:37,514 DEBUG   SenderThread:26628 [sender.py:send():303] send: stats
+2024-06-07 00:49:44,023 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:49:44,023 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:49:44,102 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:49:50,154 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:49:58,237 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:49:59,568 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:49:59,568 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:50:04,310 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:50:07,513 DEBUG   SenderThread:26628 [sender.py:send():303] send: stats
+2024-06-07 00:50:12,390 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:50:14,915 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:50:14,915 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:50:18,446 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:50:26,501 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:50:30,332 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:50:30,332 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:50:32,543 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:50:37,525 DEBUG   SenderThread:26628 [sender.py:send():303] send: stats
+2024-06-07 00:50:38,598 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:50:45,769 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:50:45,769 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:50:46,692 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:50:54,753 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:51:00,799 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:51:01,202 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:51:01,202 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:51:07,529 DEBUG   SenderThread:26628 [sender.py:send():303] send: stats
+2024-06-07 00:51:07,864 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:51:13,907 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:51:16,596 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:51:16,596 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:51:19,981 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:51:28,054 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:51:31,995 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:51:31,995 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:51:34,115 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:51:37,544 DEBUG   SenderThread:26628 [sender.py:send():303] send: stats
+2024-06-07 00:51:40,193 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:51:47,443 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:51:47,443 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:51:48,263 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:51:54,321 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:52:02,414 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:52:02,878 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:52:02,879 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:52:07,552 DEBUG   SenderThread:26628 [sender.py:send():303] send: stats
+2024-06-07 00:52:08,483 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:52:16,568 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:52:18,329 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:52:18,329 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:52:22,655 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:52:28,712 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:52:33,769 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:52:33,769 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:52:36,756 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:52:37,564 DEBUG   SenderThread:26628 [sender.py:send():303] send: stats
+2024-06-07 00:52:42,803 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:52:49,196 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:52:49,197 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:52:50,880 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:52:56,936 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:53:04,650 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:53:04,650 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:53:05,032 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:53:07,580 DEBUG   SenderThread:26628 [sender.py:send():303] send: stats
+2024-06-07 00:53:11,099 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:53:19,162 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:53:20,115 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: stop_status
+2024-06-07 00:53:20,115 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: stop_status
+2024-06-07 00:53:25,197 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:53:31,241 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:53:31,959 DEBUG   SenderThread:26628 [sender.py:send():303] send: exit
+2024-06-07 00:53:31,959 INFO    SenderThread:26628 [sender.py:send_exit():442] handling exit code: 255
+2024-06-07 00:53:31,959 INFO    SenderThread:26628 [sender.py:send_exit():444] handling runtime: 1014
+2024-06-07 00:53:31,960 INFO    SenderThread:26628 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-06-07 00:53:31,960 INFO    SenderThread:26628 [sender.py:send_exit():450] send defer
+2024-06-07 00:53:31,960 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: defer
+2024-06-07 00:53:31,960 INFO    HandlerThread:26628 [handler.py:handle_request_defer():162] handle defer: 0
+2024-06-07 00:53:31,960 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: defer
+2024-06-07 00:53:31,961 INFO    SenderThread:26628 [sender.py:send_request_defer():459] handle sender defer: 0
+2024-06-07 00:53:31,961 INFO    SenderThread:26628 [sender.py:transition_state():463] send defer: 1
+2024-06-07 00:53:31,961 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: defer
+2024-06-07 00:53:31,961 INFO    HandlerThread:26628 [handler.py:handle_request_defer():162] handle defer: 1
+2024-06-07 00:53:31,961 INFO    HandlerThread:26628 [system_monitor.py:finish():160] Stopping system monitor
+2024-06-07 00:53:31,962 DEBUG   SystemMonitor:26628 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2024-06-07 00:53:31,962 DEBUG   SystemMonitor:26628 [system_monitor.py:_start():141] Publishing last batch of metrics
+2024-06-07 00:53:31,963 INFO    HandlerThread:26628 [interfaces.py:finish():173] Joined cpu
+2024-06-07 00:53:31,963 INFO    HandlerThread:26628 [interfaces.py:finish():173] Joined disk
+2024-06-07 00:53:31,963 INFO    HandlerThread:26628 [interfaces.py:finish():173] Joined memory
+2024-06-07 00:53:31,963 INFO    HandlerThread:26628 [interfaces.py:finish():173] Joined network
+2024-06-07 00:53:31,963 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: defer
+2024-06-07 00:53:31,963 INFO    SenderThread:26628 [sender.py:send_request_defer():459] handle sender defer: 1
+2024-06-07 00:53:31,963 INFO    SenderThread:26628 [sender.py:transition_state():463] send defer: 2
+2024-06-07 00:53:31,964 DEBUG   SenderThread:26628 [sender.py:send():303] send: stats
+2024-06-07 00:53:31,964 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: defer
+2024-06-07 00:53:31,964 INFO    HandlerThread:26628 [handler.py:handle_request_defer():162] handle defer: 2
+2024-06-07 00:53:31,965 DEBUG   SenderThread:26628 [sender.py:send():303] send: history
+2024-06-07 00:53:31,965 DEBUG   SenderThread:26628 [sender.py:send():303] send: summary
+2024-06-07 00:53:31,966 INFO    SenderThread:26628 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-06-07 00:53:31,966 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: defer
+2024-06-07 00:53:31,966 INFO    SenderThread:26628 [sender.py:send_request_defer():459] handle sender defer: 2
+2024-06-07 00:53:31,966 INFO    SenderThread:26628 [sender.py:transition_state():463] send defer: 3
+2024-06-07 00:53:31,966 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: defer
+2024-06-07 00:53:31,966 INFO    HandlerThread:26628 [handler.py:handle_request_defer():162] handle defer: 3
+2024-06-07 00:53:31,966 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: defer
+2024-06-07 00:53:31,966 INFO    SenderThread:26628 [sender.py:send_request_defer():459] handle sender defer: 3
+2024-06-07 00:53:31,966 INFO    SenderThread:26628 [sender.py:transition_state():463] send defer: 4
+2024-06-07 00:53:31,967 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: defer
+2024-06-07 00:53:31,967 INFO    HandlerThread:26628 [handler.py:handle_request_defer():162] handle defer: 4
+2024-06-07 00:53:31,967 DEBUG   SenderThread:26628 [sender.py:send():303] send: summary
+2024-06-07 00:53:31,967 INFO    SenderThread:26628 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-06-07 00:53:31,968 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: defer
+2024-06-07 00:53:31,968 INFO    SenderThread:26628 [sender.py:send_request_defer():459] handle sender defer: 4
+2024-06-07 00:53:31,968 INFO    SenderThread:26628 [sender.py:transition_state():463] send defer: 5
+2024-06-07 00:53:31,968 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: defer
+2024-06-07 00:53:31,968 INFO    HandlerThread:26628 [handler.py:handle_request_defer():162] handle defer: 5
+2024-06-07 00:53:31,968 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: defer
+2024-06-07 00:53:31,968 INFO    SenderThread:26628 [sender.py:send_request_defer():459] handle sender defer: 5
+2024-06-07 00:53:31,968 INFO    SenderThread:26628 [sender.py:transition_state():463] send defer: 6
+2024-06-07 00:53:31,969 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: defer
+2024-06-07 00:53:31,969 INFO    HandlerThread:26628 [handler.py:handle_request_defer():162] handle defer: 6
+2024-06-07 00:53:31,969 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: defer
+2024-06-07 00:53:31,969 INFO    SenderThread:26628 [sender.py:send_request_defer():459] handle sender defer: 6
+2024-06-07 00:53:32,264 INFO    Thread-17 :26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\wandb-summary.json
+2024-06-07 00:53:32,780 INFO    SenderThread:26628 [sender.py:transition_state():463] send defer: 7
+2024-06-07 00:53:32,780 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: defer
+2024-06-07 00:53:32,780 INFO    HandlerThread:26628 [handler.py:handle_request_defer():162] handle defer: 7
+2024-06-07 00:53:32,780 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: defer
+2024-06-07 00:53:32,780 INFO    SenderThread:26628 [sender.py:send_request_defer():459] handle sender defer: 7
+2024-06-07 00:53:32,780 INFO    SenderThread:26628 [dir_watcher.py:finish():362] shutting down directory watcher
+2024-06-07 00:53:32,976 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: poll_exit
+2024-06-07 00:53:33,277 INFO    SenderThread:26628 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:53:33,277 INFO    SenderThread:26628 [dir_watcher.py:finish():392] scan: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files
+2024-06-07 00:53:33,278 INFO    SenderThread:26628 [dir_watcher.py:finish():406] scan save: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\config.yaml config.yaml
+2024-06-07 00:53:33,278 INFO    SenderThread:26628 [dir_watcher.py:finish():406] scan save: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log output.log
+2024-06-07 00:53:33,278 INFO    SenderThread:26628 [dir_watcher.py:finish():406] scan save: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\requirements.txt requirements.txt
+2024-06-07 00:53:33,278 INFO    SenderThread:26628 [dir_watcher.py:finish():406] scan save: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\wandb-metadata.json wandb-metadata.json
+2024-06-07 00:53:33,279 INFO    SenderThread:26628 [dir_watcher.py:finish():406] scan save: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\wandb-summary.json wandb-summary.json
+2024-06-07 00:53:33,280 INFO    SenderThread:26628 [sender.py:transition_state():463] send defer: 8
+2024-06-07 00:53:33,280 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: poll_exit
+2024-06-07 00:53:33,282 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: defer
+2024-06-07 00:53:33,282 INFO    HandlerThread:26628 [handler.py:handle_request_defer():162] handle defer: 8
+2024-06-07 00:53:33,283 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: defer
+2024-06-07 00:53:33,283 INFO    SenderThread:26628 [sender.py:send_request_defer():459] handle sender defer: 8
+2024-06-07 00:53:33,284 INFO    SenderThread:26628 [file_pusher.py:finish():168] shutting down file pusher
+2024-06-07 00:53:33,988 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: poll_exit
+2024-06-07 00:53:33,989 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: poll_exit
+2024-06-07 00:53:34,162 INFO    Thread-21 :26628 [upload_job.py:push():143] Uploaded file C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\config.yaml
+2024-06-07 00:53:34,171 INFO    Thread-24 :26628 [upload_job.py:push():143] Uploaded file C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\wandb-summary.json
+2024-06-07 00:53:34,204 INFO    Thread-23 :26628 [upload_job.py:push():143] Uploaded file C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\requirements.txt
+2024-06-07 00:53:34,340 INFO    Thread-22 :26628 [upload_job.py:push():143] Uploaded file C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\files\output.log
+2024-06-07 00:53:34,553 INFO    Thread-16 (_thread_body):26628 [sender.py:transition_state():463] send defer: 9
+2024-06-07 00:53:34,553 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: defer
+2024-06-07 00:53:34,553 INFO    HandlerThread:26628 [handler.py:handle_request_defer():162] handle defer: 9
+2024-06-07 00:53:34,554 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: defer
+2024-06-07 00:53:34,554 INFO    SenderThread:26628 [sender.py:send_request_defer():459] handle sender defer: 9
+2024-06-07 00:53:34,554 INFO    SenderThread:26628 [file_pusher.py:join():173] waiting for file pusher
+2024-06-07 00:53:34,554 INFO    SenderThread:26628 [sender.py:transition_state():463] send defer: 10
+2024-06-07 00:53:34,554 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: defer
+2024-06-07 00:53:34,554 INFO    HandlerThread:26628 [handler.py:handle_request_defer():162] handle defer: 10
+2024-06-07 00:53:34,554 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: defer
+2024-06-07 00:53:34,554 INFO    SenderThread:26628 [sender.py:send_request_defer():459] handle sender defer: 10
+2024-06-07 00:53:34,992 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: poll_exit
+2024-06-07 00:53:35,234 INFO    SenderThread:26628 [sender.py:transition_state():463] send defer: 11
+2024-06-07 00:53:35,234 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: poll_exit
+2024-06-07 00:53:35,235 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: defer
+2024-06-07 00:53:35,235 INFO    HandlerThread:26628 [handler.py:handle_request_defer():162] handle defer: 11
+2024-06-07 00:53:35,236 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: defer
+2024-06-07 00:53:35,236 INFO    SenderThread:26628 [sender.py:send_request_defer():459] handle sender defer: 11
+2024-06-07 00:53:35,236 INFO    SenderThread:26628 [sender.py:transition_state():463] send defer: 12
+2024-06-07 00:53:35,236 DEBUG   SenderThread:26628 [sender.py:send():303] send: final
+2024-06-07 00:53:35,237 DEBUG   SenderThread:26628 [sender.py:send():303] send: footer
+2024-06-07 00:53:35,237 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: defer
+2024-06-07 00:53:35,237 INFO    HandlerThread:26628 [handler.py:handle_request_defer():162] handle defer: 12
+2024-06-07 00:53:35,237 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: defer
+2024-06-07 00:53:35,237 INFO    SenderThread:26628 [sender.py:send_request_defer():459] handle sender defer: 12
+2024-06-07 00:53:35,238 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: poll_exit
+2024-06-07 00:53:35,239 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: poll_exit
+2024-06-07 00:53:35,239 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: poll_exit
+2024-06-07 00:53:35,239 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: poll_exit
+2024-06-07 00:53:35,239 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: server_info
+2024-06-07 00:53:35,240 DEBUG   SenderThread:26628 [sender.py:send_request():317] send_request: server_info
+2024-06-07 00:53:35,240 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: get_summary
+2024-06-07 00:53:35,241 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: sampled_history
+2024-06-07 00:53:35,933 INFO    MainThread:26628 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2024-06-07 00:53:35,933 INFO    MainThread:26628 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2024-06-07 00:53:35,937 INFO    MainThread:26628 [wandb_run.py:_footer_sync_info():3333] logging synced files
+2024-06-07 00:53:35,938 DEBUG   HandlerThread:26628 [handler.py:handle_request():139] handle_request: shutdown
+2024-06-07 00:53:35,938 INFO    HandlerThread:26628 [handler.py:finish():814] shutting down handler
+2024-06-07 00:53:36,252 INFO    WriterThread:26628 [datastore.py:close():279] close: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\wandb\run-20240607_003636-zjepkdex\run-zjepkdex.wandb
+2024-06-07 00:53:36,948 INFO    SenderThread:26628 [sender.py:finish():1331] shutting down sender
+2024-06-07 00:53:36,948 INFO    SenderThread:26628 [file_pusher.py:finish():168] shutting down file pusher
+2024-06-07 00:53:36,948 INFO    SenderThread:26628 [file_pusher.py:join():173] waiting for file pusher
+2024-06-07 00:53:36,950 INFO    MainThread:26628 [internal.py:handle_exit():78] Internal process exited

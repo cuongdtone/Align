@@ -1,0 +1,166 @@
+
+[34m[1mtrain: [39m[22mScanning C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-circle... 66 images, 0 backgrounds, 0 corrupt: 100%|██████████| 66/66 [00:01<00:00, 42.30it/s]
+Freezing layer 'model.22.dfl.conv.weight'
+[34m[1mtrain: [39m[22mNew cache created: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-circle.cache
+C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\albumentations\core\composition.py:144: UserWarning: Got processor for bboxes, but no transform to process it.
+  self._set_keys()
+[34m[1mval: [39m[22mScanning C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-circle.cache... 66 images, 0 backgrounds, 0 corrupt: 100%|██████████| 66/66 [00:00<?, ?it/s]
+[34m[1malbumentations: [39m[22mBlur(p=0.01, blur_limit=(3, 7)), MedianBlur(p=0.01, blur_limit=(3, 7)), ToGray(p=0.01), CLAHE(p=0.01, clip_limit=(1, 4.0), tile_grid_size=(8, 8))
+Plotting labels to runs\segment\train\labels.jpg...
+[34m[1moptimizer:[39m[22m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically...
+[34m[1moptimizer:[39m[22m AdamW(lr=0.001667, momentum=0.9) with parameter groups 66 weight(decay=0.0), 77 weight(decay=0.0005), 76 bias(decay=0.0)
+[34m[1mTensorBoard: [39m[22mmodel graph visualization added ✅
+Image sizes 1280 train, 1280 val
+Using 0 dataloader workers
+Logging results to [1mruns\segment\train
+Starting training for 100 epochs...
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+      1/100         0G      1.516      3.437      3.936      1.812          6       1280: 100%|██████████| 9/9 [01:32<00:00, 10.30s/it]
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95):  60%|██████    | 3/5 [00:32<00:22, 11.06s/it]
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 5/5 [00:45<00:00,  9.14s/it]
+  0%|          | 0/9 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+      2/100         0G      1.009      1.043      2.771      1.443          6       1280: 100%|██████████| 9/9 [01:25<00:00,  9.48s/it]
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 5/5 [00:49<00:00,  9.90s/it]
+                   all         66        132          1      0.388      0.995      0.669          1      0.388      0.995      0.794
+  0%|          | 0/9 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+      3/100         0G     0.8142     0.4769       2.19      1.325          7       1280: 100%|██████████| 9/9 [01:25<00:00,  9.46s/it]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95):   0%|          | 0/5 [00:00<?, ?it/s]
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95):  20%|██        | 1/5 [00:12<00:49, 12.30s/it]
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95):  40%|████      | 2/5 [00:24<00:37, 12.38s/it]
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95):  60%|██████    | 3/5 [00:37<00:24, 12.47s/it]
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95):  80%|████████  | 4/5 [00:49<00:12, 12.38s/it]
+                   all         66        132    0.00852      0.985      0.865      0.653    0.00852      0.985      0.865      0.717
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 5/5 [00:51<00:00, 10.21s/it]
+
+
+
+
+
+
+
+
+      4/100         0G     0.7626     0.4001      1.978      1.255          9       1280: 100%|██████████| 9/9 [01:23<00:00,  9.29s/it]
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 5/5 [00:48<00:00,  9.79s/it]
+  0%|          | 0/9 [00:00<?, ?it/s]
+                   all         66        132      0.887      0.838      0.963      0.724      0.887      0.838      0.964      0.812
+
+
+
+
+
+
+
+
+      5/100         0G     0.7092     0.3487      1.856      1.218          8       1280: 100%|██████████| 9/9 [01:23<00:00,  9.28s/it]
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95):  80%|████████  | 4/5 [00:47<00:11, 11.98s/it]
+                   all         66        132      0.945       0.37      0.673        0.5      0.945       0.37        0.7      0.607
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 5/5 [00:49<00:00,  9.86s/it]
+
+
+
+
+
+
+
+
+      6/100         0G     0.6262     0.3047        1.7      1.225         10       1280: 100%|██████████| 9/9 [01:24<00:00,  9.38s/it]
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 5/5 [00:49<00:00,  9.88s/it]
+                   all         66        132      0.998        0.5      0.867      0.556      0.998        0.5      0.882      0.723
+  0%|          | 0/9 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+      7/100         0G     0.6189     0.3039      1.699      1.228          9       1280: 100%|██████████| 9/9 [01:22<00:00,  9.22s/it]
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95):  40%|████      | 2/5 [00:23<00:35, 11.95s/it]
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95):  60%|██████    | 3/5 [00:35<00:24, 12.06s/it]
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 5/5 [00:49<00:00,  9.93s/it]
+                   all         66        132      0.725      0.586      0.825      0.577      0.725      0.586       0.83       0.69
+  0%|          | 0/9 [00:00<?, ?it/s]
+
+      8/100         0G     0.6162     0.2636      1.759      1.179         30       1280:  11%|█         | 1/9 [00:20<02:43, 20.39s/it]
+Traceback (most recent call last):
+  File "C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\y8-circle-train.py", line 8, in <module>
+    results = model.train(data='align-circle.yaml', epochs=100, imgsz=1280, batch=8, translate=0, scale=0, flipud=0.5)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\model.py", line 601, in train
+    self.trainer.train()
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\trainer.py", line 208, in train
+    self._do_train(world_size)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\trainer.py", line 384, in _do_train
+    self.scaler.scale(self.loss).backward()
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\_tensor.py", line 522, in backward
+    torch.autograd.backward(
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\autograd\__init__.py", line 266, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\y8-circle-train.py", line 8, in <module>
+    results = model.train(data='align-circle.yaml', epochs=100, imgsz=1280, batch=8, translate=0, scale=0, flipud=0.5)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\model.py", line 601, in train
+    self.trainer.train()
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\trainer.py", line 208, in train
+    self._do_train(world_size)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\trainer.py", line 384, in _do_train
+    self.scaler.scale(self.loss).backward()
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\_tensor.py", line 522, in backward
+    torch.autograd.backward(
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\autograd\__init__.py", line 266, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

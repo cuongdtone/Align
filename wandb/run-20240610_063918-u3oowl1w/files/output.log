@@ -1,0 +1,812 @@
+
+[34m[1mtrain: [39m[22mScanning C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk... 1290 images, 1 backgrounds, 0 corrupt:  32%|███▏      | 1291/4015 [00:01<00:03, 858.35it/s]
+Freezing layer 'model.22.dfl.conv.weight'
+
+[34m[1mtrain: [39m[22mScanning C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk... 3012 images, 1 backgrounds, 0 corrupt:  75%|███████▌  | 3013/4015 [00:03<00:01, 861.87it/s]
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000001-0.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000001-1.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000001-2.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000001-3.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000001-4.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000001-5.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000001-6.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000001-7.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000001.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000002-0.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000002-1.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000002-2.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000002-3.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000002-4.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000002-5.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000002-6.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000002-7.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000002.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000003-0.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000003-1.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000003-2.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000003-3.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000003-4.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000003-5.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000003-6.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000003-7.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000003.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000004-0.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000004-1.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000004-2.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000004-3.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000004-4.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000004-5.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000004-6.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000004-7.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000004.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000005-0.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000005-1.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000005-2.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000005-3.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000005-4.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000005-5.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000005-6.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000005-7.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000005.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000006-0.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000006-1.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000006-2.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000006-3.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000006-4.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000006-5.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000006-6.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000006-7.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000006.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000007-0.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000007-1.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000007-2.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000007-3.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000007-4.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000007-5.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000007-6.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000007-7.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000007.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000008-0.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000008-1.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000008-2.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000008-3.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000008-4.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000008-5.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000008-6.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000008-7.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000008.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000009-0.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000009-1.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000009-2.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000009-3.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000009-4.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000009-5.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000009-6.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000009-7.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000009.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000010-0.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000010-1.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000010-2.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000010-3.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000010-4.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000010-5.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000010-6.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000010-7.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000010.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000011-0.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000011-1.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000011-2.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000011-3.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000011-4.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000011-5.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000011-6.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000011-7.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000011.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000012-0.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000012-1.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000012-2.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000012-3.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000012-4.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000012-5.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000012-6.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000012-7.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000012.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000013-0.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000013-1.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000013-2.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000013-3.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000013-4.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000013-5.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000013-6.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000013-7.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000013.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000014-0.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000014-1.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000014-2.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000014-3.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000014-4.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000014-5.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000014-6.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000014-7.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000014.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000015-0.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000015-1.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000015-2.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000015-3.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000015-4.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000015-5.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000015-6.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000015-7.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000015.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000016-0.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000016-1.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000016-2.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000016-3.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000016-4.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000016-5.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000016-6.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000016-7.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000016.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000017-0.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000017-1.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000017-2.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000017-3.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000017-4.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000017-5.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000017-6.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000017-7.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000017.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000018-0.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000018-1.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000018-2.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000018-3.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000018-4.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000018-5.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000018-6.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000018-7.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000018.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000019-0.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000019-1.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000019-2.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000019-3.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000019-4.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000019-5.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000019-6.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000019-7.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000019.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000020-0.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000020-1.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000020-2.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000020-3.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000020-4.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000020-5.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000020-6.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000020-7.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000020.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000021-0.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000021-1.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000021-2.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000021-3.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000021-4.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000021-5.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000021-6.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000021-7.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000021.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000022-0.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000022-1.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000022-2.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000022-3.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000022-4.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000022-5.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000022-6.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000022-7.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000022.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000023-0.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000023-1.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000023-2.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000023-3.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000023-4.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000023-5.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000023-6.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000023-7.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000023.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000024-0.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000024-1.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000024-2.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000024-3.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000024-4.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000024-5.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000024-6.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000024-7.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000024.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000025-0.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000025-1.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000025-2.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000025-3.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000025-4.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000025-5.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000025-6.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000025-7.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000025.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000026-0.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000026-1.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000026-2.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000026-3.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000026-4.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000026-5.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000026-6.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000026-7.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000026.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000027-0.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000027-1.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000027-2.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000027-3.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000027-4.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000027-5.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000027-6.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000027-7.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk\D-000027.jpg: 1 duplicate labels removed
+
+[34m[1mtrain: [39m[22mScanning C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk... 4014 images, 1 backgrounds, 0 corrupt: 100%|██████████| 4015/4015 [00:04<00:00, 858.62it/s]
+C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\albumentations\core\composition.py:144: UserWarning: Got processor for bboxes, but no transform to process it.
+  self._set_keys()
+[34m[1mval: [39m[22mScanning C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk-val... 39 images, 0 backgrounds, 0 corrupt: 100%|██████████| 39/39 [00:00<00:00, 1493.60it/s]
+[34m[1malbumentations: [39m[22mBlur(p=0.01, blur_limit=(3, 7)), MedianBlur(p=0.01, blur_limit=(3, 7)), ToGray(p=0.01), CLAHE(p=0.01, clip_limit=(1, 4.0), tile_grid_size=(8, 8))
+[34m[1mval: [39m[22mNew cache created: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk-val.cache
+Plotting labels to runs\detect\train21\labels.jpg...
+[34m[1moptimizer:[39m[22m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically...
+[34m[1moptimizer:[39m[22m AdamW(lr=0.000909, momentum=0.9) with parameter groups 57 weight(decay=0.0), 64 weight(decay=0.0005), 63 bias(decay=0.0)
+[34m[1mTensorBoard: [39m[22mmodel graph visualization added ✅
+Image sizes 928 train, 928 val
+Using 0 dataloader workers
+Logging results to [1mruns\detect\train21
+Starting training for 30 epochs...
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       1/30         0G     0.2986     0.2054     0.8098         86        928: 100%|██████████| 251/251 [34:33<00:00,  8.26s/it]
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:06<00:06,  6.65s/it]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:07<00:00,  3.96s/it]
+  0%|          | 0/251 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       2/30         0G     0.3259     0.2217     0.8105        100        928:  78%|███████▊  | 196/251 [26:12<07:21,  8.02s/it]Exception ignored in: <generator object tqdm.__iter__ at 0x0000025617FD5D20>
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\tqdm\std.py", line 1196, in __iter__
+    self.close()
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\tqdm\std.py", line 1302, in close
+    self.display(pos=0)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\tqdm\std.py", line 1495, in display
+    self.sp(self.__str__() if msg is None else msg)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\tqdm\std.py", line 459, in print_status
+    fp_write('\r' + s + (' ' * max(last_len[0] - len_s, 0)))
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\tqdm\std.py", line 452, in fp_write
+    fp.write(str(s))
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\tqdm\utils.py", line 196, in inner
+    return func(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\sdk\lib\redirect.py", line 643, in write
+    cb(data)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\sdk\wandb_run.py", line 1913, in <lambda>
+    lambda data: self._console_raw_callback("stderr", data),
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\sdk\wandb_run.py", line 1291, in _console_raw_callback
+    self._backend.interface.publish_output_raw(name, data)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\sdk\interface\interface.py", line 628, in publish_output_raw
+    self._publish_output_raw(o)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\sdk\interface\interface_shared.py", line 75, in _publish_output_raw
+    self._publish(rec)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\sdk\interface\interface_sock.py", line 51, in _publish
+    self._sock_client.send_record_publish(record)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\sdk\lib\sock_client.py", line 221, in send_record_publish
+    self.send_server_request(server_req)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\sdk\lib\sock_client.py", line 155, in send_server_request
+    self._send_message(msg)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\sdk\lib\sock_client.py", line 152, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\sdk\lib\sock_client.py", line 130, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+KeyboardInterrupt:
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\linecache.py", line 46, in getlines
+    return updatecache(filename, module_globals)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\linecache.py", line 136, in updatecache
+    with tokenize.open(fullname) as fp:
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\tokenize.py", line 394, in open
+    buffer = _builtin_open(filename, 'rb')
+KeyboardInterrupt
+Original exception was:
+Traceback (most recent call last):
+  File "C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\y8-train-lmk.py", line 7, in <module>
+    results = model.train(data=r'align.yaml',
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\model.py", line 601, in train
+    self.trainer.train()
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\trainer.py", line 208, in train
+    self._do_train(world_size)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\trainer.py", line 376, in _do_train
+    self.loss, self.loss_items = self.model(batch)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\nn\tasks.py", line 82, in forward
+    return self.loss(x, *args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\nn\tasks.py", line 260, in loss
+    preds = self.forward(batch["img"]) if preds is None else preds
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\nn\tasks.py", line 83, in forward
+    return self.predict(x, *args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\nn\tasks.py", line 101, in predict
+    return self._predict_once(x, profile, visualize, embed)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\nn\tasks.py", line 122, in _predict_once
+    x = m(x)  # run
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\nn\modules\block.py", line 225, in forward
+    y.extend(m(y[-1]) for m in self.m)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\nn\modules\block.py", line 225, in <genexpr>
+    y.extend(m(y[-1]) for m in self.m)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\nn\modules\block.py", line 335, in forward
+    return x + self.cv2(self.cv1(x)) if self.add else self.cv2(self.cv1(x))
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\nn\modules\conv.py", line 50, in forward
+    return self.act(self.bn(self.conv(x)))
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\conv.py", line 460, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\conv.py", line 456, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+KeyboardInterrupt

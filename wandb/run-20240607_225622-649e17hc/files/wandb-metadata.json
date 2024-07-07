@@ -1,0 +1,33 @@
+{
+    "os": "Windows-10-10.0.22631-SP0",
+    "python": "3.10.8",
+    "heartbeatAt": "2024-06-07T15:56:23.138422",
+    "startedAt": "2024-06-07T15:56:22.068123",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:\\Users\\PC\\Desktop\\Freelancer\\Aligh-with-arm\\synthetics\\y8-train-lmk.py",
+    "codePath": "y8-train-lmk.py",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2500.0,
+        "min": 0.0,
+        "max": 2500.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2500.0,
+            "min": 0.0,
+            "max": 2500.0
+        }
+    ],
+    "disk": {
+        "total": 237.61913681030273,
+        "used": 220.52522659301758
+    },
+    "memory": {
+        "total": 15.747482299804688
+    }
+}

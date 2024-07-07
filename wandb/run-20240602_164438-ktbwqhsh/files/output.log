@@ -1,0 +1,116 @@
+[34m[1mtrain: [39m[22mScanning C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-circle.cache... 66 images, 0 backgrounds, 0 corrupt: 100%|██████████| 66/66 [00:00<?, ?it/s]
+C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\albumentations\core\composition.py:144: UserWarning: Got processor for bboxes, but no transform to process it.
+  self._set_keys()
+[34m[1mval: [39m[22mScanning C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-circle.cache... 66 images, 0 backgrounds, 0 corrupt: 100%|██████████| 66/66 [00:00<?, ?it/s]
+Freezing layer 'model.22.dfl.conv.weight'
+[34m[1malbumentations: [39m[22mBlur(p=0.01, blur_limit=(3, 7)), MedianBlur(p=0.01, blur_limit=(3, 7)), ToGray(p=0.01), CLAHE(p=0.01, clip_limit=(1, 4.0), tile_grid_size=(8, 8))
+Plotting labels to runs\segment\train2\labels.jpg...
+[34m[1moptimizer:[39m[22m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically...
+[34m[1moptimizer:[39m[22m AdamW(lr=0.001667, momentum=0.9) with parameter groups 66 weight(decay=0.0), 77 weight(decay=0.0005), 76 bias(decay=0.0)
+[34m[1mTensorBoard: [39m[22mmodel graph visualization added ✅
+Image sizes 928 train, 928 val
+Using 0 dataloader workers
+Logging results to [1mruns\segment\train2
+Starting training for 5 epochs...
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+        1/5         0G     0.8192        2.4      3.071      1.326          6        928: 100%|██████████| 9/9 [00:47<00:00,  5.29s/it]
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95):  80%|████████  | 4/5 [00:23<00:05,  5.84s/it]
+                   all         66        132    0.00488        0.5      0.497      0.435    0.00488        0.5      0.497      0.465
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 5/5 [00:24<00:00,  4.82s/it]
+
+
+
+
+
+
+
+
+        2/5         0G     0.4321     0.7145      1.856      1.069          6        928: 100%|██████████| 9/9 [00:40<00:00,  4.53s/it]
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95):  60%|██████    | 3/5 [00:17<00:11,  5.70s/it]
+                   all         66        132     0.0145      0.508      0.498      0.454     0.0145      0.508      0.498      0.498
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 5/5 [00:23<00:00,  4.71s/it]
+
+
+
+
+
+
+
+
+        3/5         0G     0.4616     0.4296      1.308      1.028          7        928: 100%|██████████| 9/9 [00:40<00:00,  4.47s/it]
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95):  80%|████████  | 4/5 [00:23<00:05,  5.91s/it]
+                   all         66        132     0.0369        0.5      0.497      0.458     0.0369        0.5      0.497      0.497
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 5/5 [00:24<00:00,  4.89s/it]
+
+
+
+
+
+
+
+
+        4/5         0G      0.383     0.3853      1.218     0.9924          9        928: 100%|██████████| 9/9 [00:40<00:00,  4.51s/it]
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95):  60%|██████    | 3/5 [00:17<00:11,  5.88s/it]
+                   all         66        132      0.997        0.5      0.497      0.492      0.997        0.5      0.498      0.498
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 5/5 [00:24<00:00,  4.87s/it]
+
+
+
+
+
+
+
+        5/5         0G      0.345     0.2996       1.13     0.9754          8        928: 100%|██████████| 9/9 [00:40<00:00,  4.51s/it]
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95):  60%|██████    | 3/5 [00:17<00:11,  5.76s/it]
+                   all         66        132      0.998        0.5       0.58       0.58      0.998        0.5       0.58       0.58
+5 epochs completed in 0.093 hours.
+Optimizer stripped from runs\segment\train2\weights\last.pt, 6.8MB
+Optimizer stripped from runs\segment\train2\weights\best.pt, 6.8MB
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 5/5 [00:23<00:00,  4.74s/it]
+Ultralytics YOLOv8.1.15 🚀 Python-3.10.8 torch-2.2.0+cpu CPU (12th Gen Intel Core(TM) i5-12400)
+YOLOv8n-seg summary (fused): 195 layers, 3258454 parameters, 0 gradients, 12.0 GFLOPs
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 5/5 [00:22<00:00,  4.43s/it]
+                   all         66        132      0.998        0.5       0.58       0.58      0.998        0.5       0.58       0.58
+                circle         66         66      0.996          1      0.995      0.995      0.996          1      0.995      0.995
+               bigchip         66         66          1          0      0.166      0.165          1          0      0.166      0.165
+Speed: 1.5ms preprocess, 141.5ms inference, 0.0ms loss, 46.2ms postprocess per image
+Results saved to [1mruns\segment\train2
+wandb: WARNING Artifacts logged anonymously cannot be claimed and expire after 7 days.
+wandb: WARNING Artifacts logged anonymously cannot be claimed and expire after 7 days.
+wandb: WARNING Artifacts logged anonymously cannot be claimed and expire after 7 days.
+wandb: WARNING Artifacts logged anonymously cannot be claimed and expire after 7 days.
+wandb: WARNING Artifacts logged anonymously cannot be claimed and expire after 7 days.
+wandb: WARNING Artifacts logged anonymously cannot be claimed and expire after 7 days.
+wandb: WARNING Artifacts logged anonymously cannot be claimed and expire after 7 days.
+wandb: WARNING Artifacts logged anonymously cannot be claimed and expire after 7 days.
+wandb: WARNING Artifacts logged anonymously cannot be claimed and expire after 7 days.

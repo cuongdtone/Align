@@ -1,0 +1,87 @@
+[34m[1mtrain: [39m[22mScanning C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk... 112 images, 0 backgrounds, 112 corrupt:  19%|█▊        | 112/600 [00:00<00:00, 1504.89it/s]
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\data\dataset.py", line 118, in get_labels
+    assert cache["hash"] == get_hash(self.label_files + self.im_files)  # identical hash
+AssertionError
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\multiprocessing\pool.py", line 856, in next
+    item = self._items.popleft()
+IndexError: pop from an empty deque
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\y8-train-lmk.py", line 7, in <module>
+    results = model.train(data=r'align.yaml',
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\model.py", line 601, in train
+    self.trainer.train()
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\trainer.py", line 208, in train
+    self._do_train(world_size)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\trainer.py", line 322, in _do_train
+    self._setup_train(world_size)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\trainer.py", line 286, in _setup_train
+    self.train_loader = self.get_dataloader(self.trainset, batch_size=batch_size, rank=RANK, mode="train")
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\models\yolo\detect\train.py", line 49, in get_dataloader
+    dataset = self.build_dataset(dataset_path, mode, batch_size)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\models\yolo\detect\train.py", line 43, in build_dataset
+    return build_yolo_dataset(self.args, img_path, batch, self.data, mode=mode, rect=mode == "val", stride=gs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\data\build.py", line 87, in build_yolo_dataset
+    return YOLODataset(
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\data\dataset.py", line 42, in __init__
+    super().__init__(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\data\base.py", line 74, in __init__
+    self.labels = self.get_labels()
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\data\dataset.py", line 120, in get_labels
+    cache, exists = self.cache_labels(cache_path), False  # run cache ops
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\data\dataset.py", line 78, in cache_labels
+    for im_file, lb, shape, segments, keypoint, nm_f, nf_f, ne_f, nc_f, msg in pbar:
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\tqdm\std.py", line 1181, in __iter__
+    for obj in iterable:
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\multiprocessing\pool.py", line 861, in next
+    self._cond.wait(timeout)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\threading.py", line 320, in wait
+    waiter.acquire()
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\data\dataset.py", line 118, in get_labels
+    assert cache["hash"] == get_hash(self.label_files + self.im_files)  # identical hash
+AssertionError
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\multiprocessing\pool.py", line 856, in next
+    item = self._items.popleft()
+IndexError: pop from an empty deque
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\y8-train-lmk.py", line 7, in <module>
+    results = model.train(data=r'align.yaml',
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\model.py", line 601, in train
+    self.trainer.train()
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\trainer.py", line 208, in train
+    self._do_train(world_size)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\trainer.py", line 322, in _do_train
+    self._setup_train(world_size)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\trainer.py", line 286, in _setup_train
+    self.train_loader = self.get_dataloader(self.trainset, batch_size=batch_size, rank=RANK, mode="train")
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\models\yolo\detect\train.py", line 49, in get_dataloader
+    dataset = self.build_dataset(dataset_path, mode, batch_size)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\models\yolo\detect\train.py", line 43, in build_dataset
+    return build_yolo_dataset(self.args, img_path, batch, self.data, mode=mode, rect=mode == "val", stride=gs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\data\build.py", line 87, in build_yolo_dataset
+    return YOLODataset(
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\data\dataset.py", line 42, in __init__
+    super().__init__(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\data\base.py", line 74, in __init__
+    self.labels = self.get_labels()
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\data\dataset.py", line 120, in get_labels
+    cache, exists = self.cache_labels(cache_path), False  # run cache ops
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\data\dataset.py", line 78, in cache_labels
+    for im_file, lb, shape, segments, keypoint, nm_f, nf_f, ne_f, nc_f, msg in pbar:
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\tqdm\std.py", line 1181, in __iter__
+    for obj in iterable:
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\multiprocessing\pool.py", line 861, in next
+    self._cond.wait(timeout)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\threading.py", line 320, in wait
+    waiter.acquire()
+KeyboardInterrupt
+Freezing layer 'model.22.dfl.conv.weight'
+WARNING ⚠️ imgsz=[920] must be multiple of max stride 32, updating to [928]

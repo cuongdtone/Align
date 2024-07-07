@@ -1,0 +1,210 @@
+[34m[1mtrain: [39m[22mScanning C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk... 46 images, 0 backgrounds, 0 corrupt: 100%|██████████| 46/46 [00:00<00:00, 1059.85it/s]
+C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\albumentations\core\composition.py:144: UserWarning: Got processor for bboxes, but no transform to process it.
+  self._set_keys()
+[34m[1mval: [39m[22mScanning C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk.cache... 46 images, 0 backgrounds, 0 corrupt: 100%|██████████| 46/46 [00:00<?, ?it/s]
+Freezing layer 'model.22.dfl.conv.weight'
+WARNING ⚠️ imgsz=[920] must be multiple of max stride 32, updating to [928]
+[34m[1mtrain: [39m[22mNew cache created: C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\align-lmk.cache
+[34m[1malbumentations: [39m[22mBlur(p=0.01, blur_limit=(3, 7)), MedianBlur(p=0.01, blur_limit=(3, 7)), ToGray(p=0.01), CLAHE(p=0.01, clip_limit=(1, 4.0), tile_grid_size=(8, 8))
+Plotting labels to runs\detect\train2\labels.jpg...
+[34m[1moptimizer:[39m[22m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically...
+[34m[1moptimizer:[39m[22m AdamW(lr=0.000625, momentum=0.9) with parameter groups 57 weight(decay=0.0), 64 weight(decay=0.0005), 63 bias(decay=0.0)
+[34m[1mTensorBoard: [39m[22mmodel graph visualization added ✅
+Image sizes 928 train, 928 val
+Using 0 dataloader workers
+Logging results to [1mruns\detect\train2
+Starting training for 20 epochs...
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+       1/20         0G       4.93      7.067      2.691        117        928: 100%|██████████| 6/6 [00:21<00:00,  3.58s/it]
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  67%|██████▋   | 2/3 [00:06<00:03,  3.37s/it]
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 3/3 [00:09<00:00,  3.19s/it]
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+       2/20         0G       4.38      6.369      2.131         74        928: 100%|██████████| 6/6 [00:20<00:00,  3.44s/it]
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  67%|██████▋   | 2/3 [00:06<00:03,  3.34s/it]
+                   all         46        552          0          0          0          0
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 3/3 [00:09<00:00,  3.18s/it]
+
+
+
+
+
+       3/20         0G        3.6      6.048      1.758         99        928: 100%|██████████| 6/6 [00:20<00:00,  3.45s/it]
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  67%|██████▋   | 2/3 [00:06<00:03,  3.37s/it]
+                   all         46        552          0          0          0          0
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 3/3 [00:09<00:00,  3.20s/it]
+
+
+
+
+
+       4/20         0G      3.379      5.804       1.52         96        928: 100%|██████████| 6/6 [00:20<00:00,  3.37s/it]
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  67%|██████▋   | 2/3 [00:06<00:03,  3.32s/it]
+                   all         46        552   0.000878     0.0453    0.00504    0.00102
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 3/3 [00:09<00:00,  3.15s/it]
+
+
+
+
+
+       5/20         0G       3.18      5.689      1.385        110        928: 100%|██████████| 6/6 [00:20<00:00,  3.42s/it]
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  67%|██████▋   | 2/3 [00:06<00:03,  3.34s/it]
+                   all         46        552    0.00172     0.0797     0.0181    0.00402
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 3/3 [00:09<00:00,  3.21s/it]
+
+
+
+
+
+       6/20         0G      3.071      5.546      1.312         83        928: 100%|██████████| 6/6 [00:20<00:00,  3.45s/it]
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  67%|██████▋   | 2/3 [00:06<00:03,  3.39s/it]
+                   all         46        552      0.961    0.00837     0.0181     0.0034
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 3/3 [00:09<00:00,  3.23s/it]
+
+
+
+
+
+       7/20         0G      2.952      5.366      1.287         48        928: 100%|██████████| 6/6 [00:20<00:00,  3.37s/it]
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  67%|██████▋   | 2/3 [00:07<00:03,  3.54s/it]
+                   all         46        552      0.882     0.0543     0.0605     0.0159
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 3/3 [00:10<00:00,  3.35s/it]
+
+
+
+
+
+       8/20         0G      2.718      5.125      1.235         68        928: 100%|██████████| 6/6 [00:20<00:00,  3.37s/it]
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  67%|██████▋   | 2/3 [00:07<00:03,  3.68s/it]
+                   all         46        552      0.874     0.0592     0.0655     0.0245
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 3/3 [00:10<00:00,  3.49s/it]
+
+
+
+
+
+       9/20         0G       2.81      4.849      1.185        111        928: 100%|██████████| 6/6 [00:20<00:00,  3.46s/it]
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  67%|██████▋   | 2/3 [00:07<00:03,  3.79s/it]
+                   all         46        552      0.959     0.0525     0.0642     0.0275
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 3/3 [00:10<00:00,  3.58s/it]
+
+
+
+
+
+      10/20         0G      2.673      4.795      1.192         62        928: 100%|██████████| 6/6 [00:20<00:00,  3.41s/it]
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  67%|██████▋   | 2/3 [00:07<00:03,  3.99s/it]
+                   all         46        552      0.965     0.0652      0.081      0.034
+Closing dataloader mosaic
+[34m[1malbumentations: [39m[22mBlur(p=0.01, blur_limit=(3, 7)), MedianBlur(p=0.01, blur_limit=(3, 7)), ToGray(p=0.01), CLAHE(p=0.01, clip_limit=(1, 4.0), tile_grid_size=(8, 8))
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 3/3 [00:11<00:00,  3.75s/it]
+C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\albumentations\core\composition.py:144: UserWarning: Got processor for bboxes, but no transform to process it.
+  self._set_keys()
+
+
+
+
+
+      11/20         0G      2.496      4.753      1.172         69        928: 100%|██████████| 6/6 [00:19<00:00,  3.27s/it]
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  67%|██████▋   | 2/3 [00:07<00:03,  3.95s/it]
+                   all         46        552      0.972     0.0648      0.104     0.0438
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 3/3 [00:11<00:00,  3.75s/it]
+
+
+
+
+
+      12/20         0G      2.399      4.516      1.163         68        928: 100%|██████████| 6/6 [00:19<00:00,  3.33s/it]
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  67%|██████▋   | 2/3 [00:08<00:04,  4.04s/it]
+                   all         46        552      0.929      0.087      0.127     0.0547
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 3/3 [00:11<00:00,  3.84s/it]
+
+
+
+
+
+      13/20         0G      2.498      4.483      1.149         69        928: 100%|██████████| 6/6 [00:20<00:00,  3.37s/it]
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  33%|███▎      | 1/3 [00:07<00:15,  7.75s/it]
+Traceback (most recent call last):
+  File "C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\y8-train.py", line 7, in <module>
+    results = model.train(data=r'align.yaml',
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\model.py", line 601, in train
+    self.trainer.train()
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\trainer.py", line 208, in train
+    self._do_train(world_size)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\trainer.py", line 424, in _do_train
+    self.metrics, self.fitness = self.validate()
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\trainer.py", line 544, in validate
+    metrics = self.validator(self)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\utils\_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\validator.py", line 185, in __call__
+    preds = self.postprocess(preds)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\models\yolo\detect\val.py", line 86, in postprocess
+    return ops.non_max_suppression(
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\utils\ops.py", line 277, in non_max_suppression
+    i = torchvision.ops.nms(boxes, scores, iou_thres)  # NMS
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torchvision\ops\boxes.py", line 41, in nms
+    return torch.ops.torchvision.nms(boxes, scores, iou_threshold)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\_ops.py", line 755, in __call__
+    return self._op(*args, **(kwargs or {}))
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "C:\Users\PC\Desktop\Freelancer\Aligh-with-arm\synthetics\y8-train.py", line 7, in <module>
+    results = model.train(data=r'align.yaml',
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\model.py", line 601, in train
+    self.trainer.train()
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\trainer.py", line 208, in train
+    self._do_train(world_size)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\trainer.py", line 424, in _do_train
+    self.metrics, self.fitness = self.validate()
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\trainer.py", line 544, in validate
+    metrics = self.validator(self)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\utils\_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\validator.py", line 185, in __call__
+    preds = self.postprocess(preds)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\models\yolo\detect\val.py", line 86, in postprocess
+    return ops.non_max_suppression(
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\utils\ops.py", line 277, in non_max_suppression
+    i = torchvision.ops.nms(boxes, scores, iou_thres)  # NMS
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torchvision\ops\boxes.py", line 41, in nms
+    return torch.ops.torchvision.nms(boxes, scores, iou_threshold)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\_ops.py", line 755, in __call__
+    return self._op(*args, **(kwargs or {}))
+KeyboardInterrupt
