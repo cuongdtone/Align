@@ -222,7 +222,7 @@ Khi hoàn tất, có thể dùng
 ### Mô hình phát hiện đường tròn
 
 Dữ liệu  
-![alt text](image-1.png)
+![alt text](images/image-1.png)
 
 Bài toàn được dùng là phân đoạn hình ảnh, đưa đường tròn về binary mask và sử dụng YOLO để huấn luyện.   
 #### Dữ liệu  
